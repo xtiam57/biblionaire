@@ -1,0 +1,28 @@
+<div class="container-fluid">
+  <div class="row game-board">
+    <div class="col-sm-12 game-container">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6 offset-md-3">
+            <div class="text-center">
+              <img src="assets/images/logo.png" alt="">
+            </div>
+            <button routerLink="/quick-mind" class="btn btn-outline-warning btn-block" style="font-size: 1.8em" *ngIf="quickMindTotal > 0">
+              <fa-icon [icon]="['far', 'clock']" [fixedWidth]="true"></fa-icon> Mente más rápida
+            </button>
+
+            <button routerLink="/game" class="btn btn-outline-warning btn-block" style="font-size: 1.8em" *ngIf="basicTotal > 0">
+              <fa-icon [icon]="['fas', 'play']" [fixedWidth]="true"></fa-icon> Jugar Biblionario
+            </button>
+
+            <button (click)="fullScreen()" class="btn btn-outline-light btn-block">
+              <fa-icon [icon]="['fas', !isFullScreen ? 'expand' : 'compress']" [fixedWidth]="true"></fa-icon> Pantalla completa
+            </button>
+
+            <p class="text-center text-light small" style="margin-top:10px">{{summary}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

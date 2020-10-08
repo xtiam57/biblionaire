@@ -1,0 +1,97 @@
+<div class="container-fluid">
+  <div class="row game-board">
+    <div class="col-sm-12 game-container">
+      <div class="container">
+        <div class="game-lifelines">
+          <div class="btn-toolbar justify-content-between" role="toolbar">
+            <div class="btn-group btn-group-lg">
+              <button class="btn btn-outline-warning no-click" style="font-size: 1.4em; font-weight: bold" [ngClass]="{ 'btn-outline-success': gameService.isFloor() || gameService.isEnd(), 'btn-outline-warning': !gameService.isFloor() }">
+                #{{ gameService.getCurrentQuestionNumber() }}
+              </button>
+              <button class="btn btn-outline-warning no-click" style="font-size: 1.4em; font-weight: bold" [ngClass]="{ 'btn-outline-success': gameService.isFloor() || gameService.isEnd(), 'btn-outline-warning': !gameService.isFloor() }">
+                {{ gameService.getCurrentPrice() }}
+              </button>
+              <button class="btn btn-outline-success no-click" style="font-size: 1.4em; font-weight: bold" *ngIf="gameService.isFloor()">
+                Piso
+              </button>
+              <button class="btn btn-outline-success no-click" style="font-size: 1.4em; font-weight: bold" *ngIf="gameService.isEnd()">
+                Final
+              </button>
+            </div>
+
+            <div class="btn-group btn-group-lg">
+              <button (click)="gameService.useFiftyFifty()" class="btn btn-outline-light" style="font-size: 1.2em; font-weight: bold" *ngIf="gameService.lifelines.fiftyFifty"
+                      [disabled]="gameService.isFinalAnswerSelected || gameService.isTimerRunning || gameService.hasQuit">
+                50-50
+              </button>
+              <button (click)="gameService.useAskAudience()" class="btn btn-outline-light" *ngIf="gameService.lifelines.askAudience" [disabled]="gameService.isFinalAnswerSelected || gameService.isTimerRunning || gameService.hasQuit">
+                <fa-icon [icon]="['fas', 'users']" size="2x" [fixedWidth]="true"></fa-icon>
+              </button>
+              <button (click)="gameService.useBible()" class="btn btn-outline-light" *ngIf="gameService.lifelines.bible" [disabled]="gameService.isFinalAnswerSelected|| gameService.isTimerRunning || gameService.hasQuit">
+                <fa-icon [icon]="['fas', 'bible']" size="2x" [fixedWidth]="true"></fa-icon>
+              </button>
+              <button (click)="gameService.useCall()" class="btn btn-outline-light" *ngIf="gameService.lifelines.call" [disabled]="gameService.isFinalAnswerSelected|| gameService.isTimerRunning || gameService.hasQuit">
+                <fa-icon [icon]="['fas', 'phone']" size="2x" [fixedWidth]="true"></fa-icon>
+              </button>
+
+              <button (click)="gameService.quit()" class="btn btn-outline-light" style="color: #ffc107" *ngIf="!gameService.hasQuit" [disabled]="gameService.isFinalAnswerSelected|| gameService.isTimerRunning">
+                <fa-icon [icon]="['fas', 'hand-holding-usd']" size="2x" [fixedWidth]="true"></fa-icon>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="game-messages" [ngClass]="{ 'correct': gameService.isCorrectAnswer(), 'incorrect': gameService.isIncorrectAnswer() }">
+          <h1 class="display-4" *ngIf="gameService.isCorrectAnswer()">
+            ¡CORRECTO: {{ gameService.getCurrentPrice() }}!
+          </h1>
+          <h1 class="display-4" *ngIf="gameService.isIncorrectAnswer()">
+            GAME OVER: {{ gameService.getCurrentFloorPrice() }}
+          </h1>
+          <h1 class="display-4" *ngIf="gameService.timeLeft >= 0 && gameService.timeLeft <= gameService.boundTime && !gameService.isAnswerRevealed">
+            00:{{ gameService.timeLeft | number:'2.0' }}
+          </h1>
+          <h1 class="display-4" *ngIf="!gameService.isAnswerRevealed && !gameService.isTimerRunning">
+            GANADO: {{ gameService.getEarnedPrice() }}
+            <span *ngIf="!gameService.hasQuit">/ </span>
+            <span *ngIf="!gameService.hasQuit" class="text-success">PISO: {{ gameService.getCurrentFloorPrice() }}</span>
+          </h1>
+        </div>
+
+        <div class="game-question">
+          <p>{{ gameService.getCurrentQuestion().question }}</p>
+
+          <div class="row game-options">
+            <div *ngFor="let option of gameService.getCurrentQuestion().options; index as i" class="col-6">
+              <div class="game-option" (click)="gameService.selectOption(i)" [ngClass]="{ 'selected': gameService.isOptionSelected(i), 'disabled': gameService.isFinalAnswerSelected || gameService.hasQuit, 'blink': gameService.isBlinking(i), 'hidden': gameService.isHidden(i) }">
+                <span>{{ gameService.getOptionLetter(i) }}:</span>
+                {{ option }}
+              </div>
+            </div>
+          </div>
+
+          <div class="game-buttons">
+            <button *ngIf="gameService.isOptionSelected() && !gameService.isFinalAnswerSelected && !gameService.hasQuit" (click)="gameService.chooseFinalAnswer()"
+                    class="btn btn-outline-light btn-lg" [disabled]="gameService.isTimerRunning">
+              <fa-icon [icon]="['fas', 'check']" [fixedWidth]="true"></fa-icon> Respuesta Definitiva
+            </button>
+
+            <button *ngIf="gameService.isFinalAnswerSelected && !gameService.isAnswerRevealed && !gameService.hasQuit" (click)="gameService.revealAnswer()"
+                    class="btn btn-outline-warning btn-lg">
+              <fa-icon [icon]="['far', 'eye']" [fixedWidth]="true"></fa-icon> Revelar Respuesta
+            </button>
+
+            <button *ngIf="gameService.isCorrectAnswer() && !gameService.hasQuit && !gameService.isEnd()" (click)="gameService.getNextQuestion()" class="btn btn-outline-light btn-lg">
+              Siguiente Pregunta <fa-icon [icon]="['fas', 'arrow-right']" [fixedWidth]="true"></fa-icon>
+            </button>
+
+            <button routerLink="/" *ngIf="(gameService.isAnswerRevealed && gameService.isIncorrectAnswer()) || gameService.hasQuit || (gameService.isAnswerRevealed && gameService.isEnd())"
+                    class="btn btn-outline-warning btn-lg">
+              <fa-icon [icon]="['fas', 'bars']" [fixedWidth]="true"></fa-icon> Ir al Menú
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
