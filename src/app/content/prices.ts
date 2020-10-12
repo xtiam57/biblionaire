@@ -1,0 +1,17 @@
+export const prices = [
+  '50 pts',
+  '100 pts',
+  '150 pts',
+  '250 pts',
+  '500 pts',
+  '650 pts',
+  '800 pts',
+  '950 pts',
+  '1.000 pts',
+  '1.200 pts',
+  '1.400 pts',
+  '1.600 pts',
+  '1.850 pts',
+  '2.000 pts',
+  '2.500 pts',
+];
