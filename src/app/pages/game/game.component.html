@@ -15,20 +15,20 @@
           <span class="text-danger" *ngIf="gameService.isIncorrectAnswer()">
             Game Over
           </span>
-          </h1>
-          <p class="lead">
-            Ganado:
-            <span *ngIf="gameService.isIncorrectAnswer()">
-              {{ gameService.getCurrentFloorPrice() }}
-            </span>
-            <span *ngIf="!gameService.isIncorrectAnswer()">
-              {{ gameService.getEarnedPrice() }}
-            </span>
-            <span *ngIf="!gameService.isAnswerRevealed && !gameService.hasQuit">/</span>
-            <span *ngIf="!gameService.isAnswerRevealed && !gameService.hasQuit" class="text-primary">
-              Asegurado en caso de perder: {{ gameService.getCurrentFloorPrice() }}
-            </span>
-            </p>
+        </h1>
+        <p class="lead">
+          Ganado:
+          <span *ngIf="gameService.isIncorrectAnswer()">
+            {{ gameService.getCurrentFloorPrice() }}
+          </span>
+          <span *ngIf="!gameService.isIncorrectAnswer()">
+            {{ gameService.getEarnedPrice() }}
+          </span>
+          <span *ngIf="!gameService.isAnswerRevealed && !gameService.hasQuit">/</span>
+          <span *ngIf="!gameService.isAnswerRevealed && !gameService.hasQuit" class="text-primary">
+            Asegurado en caso de perder: {{ gameService.getCurrentFloorPrice() }}
+          </span>
+        </p>
       </div>
 
       <div class="game-board">
@@ -56,27 +56,28 @@
               </div>
             </div>
           </div>
-<div class="text-center">
-  <button *ngIf="gameService.isOptionSelected() && !gameService.isFinalAnswerSelected && !gameService.hasQuit"
-          (click)="gameService.chooseFinalAnswer()" class="btn btn-link" [disabled]="gameService.isTimerRunning">
-    <fa-icon [icon]="faCheck" [fixedWidth]="true"></fa-icon> Respuesta Definitiva
-  </button>
+          <div class="text-center">
+            <button *ngIf="gameService.isOptionSelected() && !gameService.isFinalAnswerSelected && !gameService.hasQuit"
+                    (click)="gameService.chooseFinalAnswer()" class="btn btn-link"
+                    [disabled]="gameService.isTimerRunning">
+              <fa-icon [icon]="faCheck" [fixedWidth]="true"></fa-icon> Respuesta Definitiva
+            </button>
 
-  <button *ngIf="gameService.isFinalAnswerSelected && !gameService.isAnswerRevealed && !gameService.hasQuit"
-          (click)="gameService.revealAnswer()" class="btn btn-link">
-    <fa-icon [icon]="faEye" [fixedWidth]="true"></fa-icon> Revelar Respuesta
-  </button>
+            <button *ngIf="gameService.isFinalAnswerSelected && !gameService.isAnswerRevealed && !gameService.hasQuit"
+                    (click)="gameService.revealAnswer()" class="btn btn-link">
+              <fa-icon [icon]="faEye" [fixedWidth]="true"></fa-icon> Revelar Respuesta
+            </button>
 
-  <button *ngIf="gameService.isCorrectAnswer() && !gameService.hasQuit && !gameService.isEnd()"
-          (click)="gameService.getNextQuestion()" class="btn btn-link">
-    Siguiente Pregunta <fa-icon [icon]="faArrowRight" [fixedWidth]="true"></fa-icon>
-  </button>
+            <button *ngIf="gameService.isCorrectAnswer() && !gameService.hasQuit && !gameService.isEnd()"
+                    (click)="gameService.getNextQuestion()" class="btn btn-link">
+              Siguiente Pregunta <fa-icon [icon]="faArrowRight" [fixedWidth]="true"></fa-icon>
+            </button>
 
-  <button routerLink="/"
-          *ngIf="(gameService.isAnswerRevealed && gameService.isIncorrectAnswer()) || gameService.hasQuit || (gameService.isAnswerRevealed && gameService.isEnd())"
-          class="btn btn-link">
-    <fa-icon [icon]="faHome" [fixedWidth]="true"></fa-icon> Ir al menú principal
-  </button>
+            <button routerLink="/"
+                    *ngIf="(gameService.isAnswerRevealed && gameService.isIncorrectAnswer()) || gameService.hasQuit || (gameService.isAnswerRevealed && gameService.isEnd())"
+                    class="btn btn-link">
+              <fa-icon [icon]="faHome" [fixedWidth]="true"></fa-icon> Ir al menú principal
+            </button>
           </div>
         </div>
 
@@ -109,7 +110,7 @@
           </button>
         </div>
 
-        </div>
+      </div>
 
 
     </div>
