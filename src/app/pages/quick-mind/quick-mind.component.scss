@@ -1,4 +1,6 @@
-
+.display-1 {
+  font-size: calc(2rem + 5vmin);
+}
 
 .game-question {
   text-align: center;
@@ -7,8 +9,6 @@
     font-size: 1.5rem;
     padding: 1.2rem;
     color: #343233;
-    // color: var(--primary);
-    // border: solid 1px var(--primary);
     background-color: var(--primary);
     border-radius: 0.25rem;
   }

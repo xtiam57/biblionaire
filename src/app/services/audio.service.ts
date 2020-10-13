@@ -1,4 +1,5 @@
 import { Injectable } from '@angular/core';
+import { createLogicalAnd } from 'typescript';
 import { AudioName } from '../types/AudioName';
 
 @Injectable({
@@ -31,6 +32,14 @@ export class AudioService {
     this.letsPlay.src = 'assets/audio/lets-play.mp3';
     this.main.src = 'assets/audio/main.mp3';
     this.quickMind.src = 'assets/audio/quick-mind.mp3';
+  }
+
+  mute(): void {
+    this.applyMuted(true);
+  }
+
+  unmute(): void {
+    this.applyMuted(false);
   }
 
   private getAudio(name: AudioName = AudioName.EASY_LOOP): HTMLAudioElement {
@@ -109,5 +118,20 @@ export class AudioService {
     this.letsPlay.volume *= this.globalVolume;
     this.main.volume *= this.globalVolume;
     this.quickMind.volume *= this.globalVolume;
+  }
+
+  private applyMuted(value: boolean): void {
+    this.easyLoop.muted = value;
+    this.easyLoop.muted = value;
+    this.mediumLoop.muted = value;
+    this.hardLoop.muted = value;
+    this.correctAnswer.muted = value;
+    this.wrongAnswer.muted = value;
+    this.finalAnswer.muted = value;
+    this.commercialBreak.muted = value;
+    this.phoneCall.muted = value;
+    this.letsPlay.muted = value;
+    this.main.muted = value;
+    this.quickMind.muted = value;
   }
 }

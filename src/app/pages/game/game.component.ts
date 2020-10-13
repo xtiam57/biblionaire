@@ -9,7 +9,7 @@ import {
   faCheck,
   faEye,
   faArrowRight,
-  faBars,
+  faHome,
   faStarHalfAlt,
 } from '@fortawesome/free-solid-svg-icons';
 
@@ -28,7 +28,7 @@ export class GameComponent implements OnInit {
   faCheck = faCheck;
   faEye = faEye;
   faArrowRight = faArrowRight;
-  faBars = faBars;
+  faHome = faHome;
   faStarHalfAlt = faStarHalfAlt;
 
   ngOnInit(): void {

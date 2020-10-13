@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { QuickMindService } from '../../services/quick-mind.service';
 
-import { faEye, faPlay, faBars } from '@fortawesome/free-solid-svg-icons';
+import { faEye, faPlay, faHome } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-quick-mind',
@@ -11,7 +11,7 @@ import { faEye, faPlay, faBars } from '@fortawesome/free-solid-svg-icons';
 export class QuickMindComponent implements OnInit {
   faEye = faEye;
   faPlay = faPlay;
-  faBars = faBars;
+  faHome = faHome;
 
   constructor(public quickMindService: QuickMindService) {}
 

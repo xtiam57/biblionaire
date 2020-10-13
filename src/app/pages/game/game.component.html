@@ -1,96 +1,96 @@
 <div class="container">
   <div class="row vh-100 align-items-center">
     <div class="col-12 col-lg-8 offset-lg-2">
-      <!-- <div class="btn-toolbar justify-content-between" role="toolbar">
-                    <div class="btn-group">
-                      <button class="btn btn-outline-light no-click font-weight-bold" ngbTooltip="Número de la pregunta actual">
+      <div class="mb-4">
+        <h1 class="display-1">
+          <span class="text-secondary" *ngIf="!gameService.isAnswerRevealed">
             #{{ gameService.getCurrentQuestionNumber() }}
-          </button>
-          <button class="btn btn-outline-light no-click font-weight-bold"
-                  ngbTooltip="Total de puntos a ganar si contestas correctamente">
-            {{ gameService.getCurrentPrice() }}
-          </button>
-          <button class="btn btn-outline-light no-click font-weight-bold">
-            <span *ngIf="gameService.isCorrectAnswer()">
-              ¡CORRECTO: {{ gameService.getCurrentPrice() }}!
-            </span>
+          </span>
+          <span *ngIf="!gameService.isAnswerRevealed">
+            por {{ gameService.getCurrentPrice() }}
+          </span>
+          <span class="text-success" *ngIf="gameService.isCorrectAnswer()">
+            ¡Correcto!
+          </span>
+          <span class="text-danger" *ngIf="gameService.isIncorrectAnswer()">
+            Game Over
+          </span>
+          </h1>
+          <p class="lead">
+            Ganado:
             <span *ngIf="gameService.isIncorrectAnswer()">
-              GAME OVER: {{ gameService.getCurrentFloorPrice() }}
+              {{ gameService.getCurrentFloorPrice() }}
             </span>
-            <span *ngIf="!gameService.isAnswerRevealed && !gameService.isTimerRunning">
-              GANADO: {{ gameService.getEarnedPrice() }}
-              <span *ngIf="!gameService.hasQuit">/ </span>
-              <span *ngIf="!gameService.hasQuit" class="text-primary">ASEGURADO:
-                {{ gameService.getCurrentFloorPrice() }}</span>
+            <span *ngIf="!gameService.isIncorrectAnswer()">
+              {{ gameService.getEarnedPrice() }}
             </span>
-          </button>
-        </div>
-      </div> -->
-
-      <!-- <div class="game-messages"
-                                                           [ngClass]="{ 'correct': gameService.isCorrectAnswer(), 'incorrect': gameService.isIncorrectAnswer() }">
-
-                                                      </div> -->
-
-      <div class="game-lifelines">
-
-        <div class="btn-group btn-group-lg">
-          <button (click)="gameService.useFiftyFifty()" class="btn btn-outline-secondary" *ngIf="gameService.lifelines.fiftyFifty"
-                  [disabled]="gameService.isFinalAnswerSelected || gameService.isTimerRunning || gameService.hasQuit"
-                  title="Comodín 50-50: elimina automáticamente dos opciones incorrectas">
-            <fa-icon [icon]="faStarHalfAlt" [fixedWidth]="true"></fa-icon>
-          </button>
-          <button (click)="gameService.useBible()" class="btn btn-outline-secondary" *ngIf="gameService.lifelines.bible"
-                  [disabled]="gameService.isFinalAnswerSelected|| gameService.isTimerRunning || gameService.hasQuit"
-                  title="Comodín usa la Biblia: puedes tomar tu Biblia y buscar la respuesta correcta">
-            <fa-icon [icon]="faBible" [fixedWidth]="true"></fa-icon>
-          </button>
-          <button (click)="gameService.useCall()" class="btn btn-outline-secondary" *ngIf="gameService.lifelines.call"
-                  [disabled]="gameService.isFinalAnswerSelected|| gameService.isTimerRunning || gameService.hasQuit"
-                  title="Comodín llamar a un amigo: llama a un amigo y consulta por la respuesta correcta">
-            <fa-icon [icon]="faPhone" [fixedWidth]="true"></fa-icon>
-          </button>
-        </div>
-
-
-        <button (click)="gameService.quit()" class="btn btn-outline-primary btn-lg ml-2" *ngIf="!gameService.hasQuit"
-                [disabled]="gameService.isFinalAnswerSelected|| gameService.isTimerRunning"
-                title="Retírate con los puntos ganados hasta ahora">
-          <fa-icon [icon]="faHandHoldingUsd" [fixedWidth]="true"></fa-icon>
-        </button>
+            <span *ngIf="!gameService.isAnswerRevealed && !gameService.hasQuit">/</span>
+            <span *ngIf="!gameService.isAnswerRevealed && !gameService.hasQuit" class="text-primary">
+              Asegurado en caso de perder: {{ gameService.getCurrentFloorPrice() }}
+            </span>
+            </p>
       </div>
-<div class="game-question">
-  <p>
-    {{ gameService.getCurrentQuestion().question }}
-  </p>
 
-        <div *ngIf="gameService.timeLeft >= 0 && gameService.timeLeft <= gameService.boundTime && !gameService.isAnswerRevealed"
-             class="mb-3">
-          <ngb-progressbar type="secondary" [value]="gameService.timeLeft" [max]="gameService.boundTime" height="0.5rem">
-          </ngb-progressbar>
-        </div>
+      <div class="game-board">
+        <div class="game-question">
+          <p>
+            {{ gameService.getCurrentQuestion().question }}
+          </p>
 
-        <small class="d-block text-primary mb-3" *ngIf="gameService.isFloor()">
-          Si respondes correctamente esta pregunta puedes asegurar la cantidad de puntos ganados hasta ahora.
-        </small>
+          <div *ngIf="gameService.timeLeft >= 0 && gameService.timeLeft <= gameService.boundTime && !gameService.isAnswerRevealed"
+               class="mb-3">
+            <ngb-progressbar type="secondary" [value]="gameService.timeLeft" [max]="gameService.boundTime" height="0.5rem">
+            </ngb-progressbar>
+          </div>
 
+          <small class="d-block text-primary mb-3" *ngIf="gameService.isFloor()">
+            Si respondes correctamente esta pregunta puedes asegurar la cantidad de puntos ganados hasta ahora.
+          </small>
 
-        <div class="row game-options">
-          <div *ngFor="let option of gameService.getCurrentQuestion().options; index as i" class="col-12 col-md-6">
-            <div class="game-option" (click)="gameService.selectOption(i)"
-                 [ngClass]="{ 'selected': gameService.isOptionSelected(i), 'disabled': gameService.isFinalAnswerSelected || gameService.hasQuit, 'blink': gameService.isBlinking(i), 'hidden': gameService.isHidden(i) }">
-              <span>{{ gameService.getOptionLetter(i) }}:</span>
-              {{ option }}
+          <div class="row game-options">
+            <div *ngFor="let option of gameService.getCurrentQuestion().options; index as i" class="col-12 col-md-6">
+              <div class="game-option" (click)="gameService.selectOption(i)"
+                   [ngClass]="{ 'selected': gameService.isOptionSelected(i), 'disabled': gameService.isFinalAnswerSelected || gameService.hasQuit, 'blink': gameService.isBlinking(i), 'hidden': gameService.isHidden(i) }">
+                <span>{{ gameService.getOptionLetter(i) }}:</span>
+                {{ option }}
+              </div>
             </div>
           </div>
         </div>
-      </div>
 
+        <div class="game-lifelines">
+          <div class="btn-group-vertical btn-group-lg mb-3">
+            <button (click)="gameService.useFiftyFifty()" class="btn btn-outline-secondary"
+                    *ngIf="gameService.lifelines.fiftyFifty"
+                    [disabled]="gameService.isFinalAnswerSelected || gameService.isTimerRunning || gameService.hasQuit"
+                    title="Comodín 50-50: elimina automáticamente dos opciones incorrectas">
+              <fa-icon [icon]="faStarHalfAlt"></fa-icon>
+            </button>
+            <button (click)="gameService.useBible()" class="btn btn-outline-secondary" *ngIf="gameService.lifelines.bible"
+                    [disabled]="gameService.isFinalAnswerSelected|| gameService.isTimerRunning || gameService.hasQuit"
+                    title="Comodín usa la Biblia: puedes tomar tu Biblia y buscar la respuesta correcta">
+              <fa-icon [icon]="faBible"></fa-icon>
+            </button>
+            <button (click)="gameService.useCall()" class="btn btn-outline-secondary" *ngIf="gameService.lifelines.call"
+                    [disabled]="gameService.isFinalAnswerSelected|| gameService.isTimerRunning || gameService.hasQuit"
+                    title="Comodín llamar a un amigo: llama a un amigo y consulta por la respuesta correcta">
+              <fa-icon [icon]="faPhone"></fa-icon>
+            </button>
+          </div>
+
+
+          <button (click)="gameService.quit()" class="btn btn-outline-primary btn-lg" *ngIf="!gameService.hasQuit"
+                  [disabled]="gameService.isFinalAnswerSelected|| gameService.isTimerRunning"
+                  title="Retírate con los puntos ganados hasta ahora">
+            <fa-icon [icon]="faHandHoldingUsd"></fa-icon>
+          </button>
+        </div>
+
+        </div>
 
       <div class="text-center">
         <button *ngIf="gameService.isOptionSelected() && !gameService.isFinalAnswerSelected && !gameService.hasQuit"
-                (click)="gameService.chooseFinalAnswer()" class="btn btn-link"
-                [disabled]="gameService.isTimerRunning">
+                (click)="gameService.chooseFinalAnswer()" class="btn btn-link" [disabled]="gameService.isTimerRunning">
           <fa-icon [icon]="faCheck" [fixedWidth]="true"></fa-icon> Respuesta Definitiva
         </button>
 
@@ -107,11 +107,9 @@
         <button routerLink="/"
                 *ngIf="(gameService.isAnswerRevealed && gameService.isIncorrectAnswer()) || gameService.hasQuit || (gameService.isAnswerRevealed && gameService.isEnd())"
                 class="btn btn-link">
-          <fa-icon [icon]="faBars" [fixedWidth]="true"></fa-icon> Ir al menú principal
+          <fa-icon [icon]="faHome" [fixedWidth]="true"></fa-icon> Ir al menú principal
         </button>
       </div>
-
-
     </div>
   </div>
 </div>

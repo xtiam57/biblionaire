@@ -1,6 +1,10 @@
 <div class="container">
   <div class="row vh-100 align-items-center">
     <div class="col-12 col-lg-8 offset-lg-2">
+      <div class="mb-4" *ngIf="!quickMindService.isAnswerRevealed">
+        <h1 class="display-1 text-uppercase text-secondary">Mente-rápida</h1>
+        <p class="lead">¿Quién podrá complir con el reto antes de que se acabe el tiempo?</p>
+      </div>
 
       <div class="game-question">
         <p *ngIf="!quickMindService.isAnswerRevealed">{{ quickMindService.getCurrentQuestion().question }}</p>
@@ -47,7 +51,7 @@
           <button routerLink="/"
                   *ngIf="quickMindService.isAnswerRevealed || !quickMindService.getCurrentQuestion().options.length"
                   class="btn btn-link">
-            <fa-icon [icon]="faBars" [fixedWidth]="true"></fa-icon> Ir al Menú
+            <fa-icon [icon]="faHome" [fixedWidth]="true"></fa-icon> Ir al menú principal
           </button>
         </div>
 

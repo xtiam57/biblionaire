@@ -1,7 +1,16 @@
+.display-1 {
+  font-size: calc(2rem + 4vmin);
+}
+
+.game-board {
+  display: flex;
+}
+
 .game-lifelines {
   display: flex;
-  justify-content: space-between;
-  margin-bottom: 1rem;
+  flex-direction: column;
+  margin-left: 1rem;
+
 }
 
 .game-question {
@@ -11,14 +20,8 @@
     font-size: 1.5rem;
     padding: 1.2rem;
     color: #343233;
-    // color: var(--primary);
-    // border: solid 1px var(--primary);
     background-color: var(--primary);
     border-radius: 0.25rem;
-
-    span {
-
-    }
   }
 
   .game-options {
@@ -78,7 +81,6 @@
 
 @keyframes blink {
   to {
-    border-color: var(--primary);
-    // color: var(--dark);
+    border-color: var(--success);
   }
 }

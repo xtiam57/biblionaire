@@ -1,9 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
 $theme-colors: (
-  "primary": #45EDC6,
+  "primary": #45edc6,
   "secondary": #ffd152,
-  "dark": #2C2A2B,
-  "light": #efdab9
+  "dark": #2c2a2b,
+  "light": #efdab9,
+  "danger": hsl(14, 100%, 53%),
+  "success": hsl(141, 53%, 53%),
 );
 
 $body-color: #efdab9;
@@ -11,7 +13,7 @@ $body-bg: #343233;
 $grid-gutter-width: 1.2rem;
 
 /* Importing Bootstrap SCSS file. */
-@import '~bootstrap/scss/bootstrap';
+@import "~bootstrap/scss/bootstrap";
 
 ::selection {
   color: var(--dark);
@@ -22,25 +24,3 @@ $grid-gutter-width: 1.2rem;
   pointer-events: none;
   cursor: default;
 }
-
-
-
-// :root {
-//   --turquoise: #45EDC6;
-//   --white: #ffffff;
-//   --white-ter: hsl(0, 0%, 96%);
-//   --white-bis: hsl(0, 0%, 98%);
-//   --black: #000000;
-//   --brown: #343233;
-//   --yellow: #ffd152;
-//   --baige: #efdab9;
-//   --red: hsl(348, 86%, 61%);
-//   --orange: hsl(14, 100%, 53%);
-//   --green: hsl(141, 53%, 53%);
-//   --grey-darker: hsl(0, 0%, 21%);
-//   --gray: hsl(0, 0%, 48%);
-//   --grey-light: hsl(0, 0%, 71%);
-//   --grey-lighter: hsl(0, 0%, 86%);
-//   --grey-lightest: hsl(0, 0%, 93%);
-// }
-

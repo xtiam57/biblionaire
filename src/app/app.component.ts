@@ -4,7 +4,10 @@ import {
   faExpand,
   faCompress,
   faHome,
+  faVolumeUp,
+  faVolumeMute,
 } from '@fortawesome/free-solid-svg-icons';
+import { AudioService } from './services/audio.service';
 
 @Component({
   selector: 'app-root',
@@ -13,10 +16,20 @@ import {
 })
 export class AppComponent {
   isFullScreen = false;
+  isMuted = false;
 
   faExpand = faExpand;
   faCompress = faCompress;
   faHome = faHome;
+  faVolumeUp = faVolumeUp;
+  faVolumeMute = faVolumeMute;
+
+  constructor(private audioService: AudioService) {  }
+
+  toggleVolume(): void {
+    this.isMuted ? this.audioService.unmute() : this.audioService.mute();
+    this.isMuted = !this.isMuted;
+  }
 
   fullScreen(): void {
     let elem: Document | HTMLElement;
