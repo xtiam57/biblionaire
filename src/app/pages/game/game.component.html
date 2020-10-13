@@ -56,10 +56,33 @@
               </div>
             </div>
           </div>
+<div class="text-center">
+  <button *ngIf="gameService.isOptionSelected() && !gameService.isFinalAnswerSelected && !gameService.hasQuit"
+          (click)="gameService.chooseFinalAnswer()" class="btn btn-link" [disabled]="gameService.isTimerRunning">
+    <fa-icon [icon]="faCheck" [fixedWidth]="true"></fa-icon> Respuesta Definitiva
+  </button>
+
+  <button *ngIf="gameService.isFinalAnswerSelected && !gameService.isAnswerRevealed && !gameService.hasQuit"
+          (click)="gameService.revealAnswer()" class="btn btn-link">
+    <fa-icon [icon]="faEye" [fixedWidth]="true"></fa-icon> Revelar Respuesta
+  </button>
+
+  <button *ngIf="gameService.isCorrectAnswer() && !gameService.hasQuit && !gameService.isEnd()"
+          (click)="gameService.getNextQuestion()" class="btn btn-link">
+    Siguiente Pregunta <fa-icon [icon]="faArrowRight" [fixedWidth]="true"></fa-icon>
+  </button>
+
+  <button routerLink="/"
+          *ngIf="(gameService.isAnswerRevealed && gameService.isIncorrectAnswer()) || gameService.hasQuit || (gameService.isAnswerRevealed && gameService.isEnd())"
+          class="btn btn-link">
+    <fa-icon [icon]="faHome" [fixedWidth]="true"></fa-icon> Ir al menú principal
+  </button>
+          </div>
         </div>
 
         <div class="game-lifelines">
-          <div class="btn-group-vertical btn-group-lg mb-3">
+          <div class="btn-group-vertical btn-group-lg"
+               [ngClass]="{ 'mb-3': gameService.lifelines.fiftyFifty || gameService.lifelines.bible || gameService.lifelines.call }">
             <button (click)="gameService.useFiftyFifty()" class="btn btn-outline-secondary"
                     *ngIf="gameService.lifelines.fiftyFifty"
                     [disabled]="gameService.isFinalAnswerSelected || gameService.isTimerRunning || gameService.hasQuit"
@@ -88,28 +111,7 @@
 
         </div>
 
-      <div class="text-center">
-        <button *ngIf="gameService.isOptionSelected() && !gameService.isFinalAnswerSelected && !gameService.hasQuit"
-                (click)="gameService.chooseFinalAnswer()" class="btn btn-link" [disabled]="gameService.isTimerRunning">
-          <fa-icon [icon]="faCheck" [fixedWidth]="true"></fa-icon> Respuesta Definitiva
-        </button>
 
-        <button *ngIf="gameService.isFinalAnswerSelected && !gameService.isAnswerRevealed && !gameService.hasQuit"
-                (click)="gameService.revealAnswer()" class="btn btn-link">
-          <fa-icon [icon]="faEye" [fixedWidth]="true"></fa-icon> Revelar Respuesta
-        </button>
-
-        <button *ngIf="gameService.isCorrectAnswer() && !gameService.hasQuit && !gameService.isEnd()"
-                (click)="gameService.getNextQuestion()" class="btn btn-link">
-          Siguiente Pregunta <fa-icon [icon]="faArrowRight" [fixedWidth]="true"></fa-icon>
-        </button>
-
-        <button routerLink="/"
-                *ngIf="(gameService.isAnswerRevealed && gameService.isIncorrectAnswer()) || gameService.hasQuit || (gameService.isAnswerRevealed && gameService.isEnd())"
-                class="btn btn-link">
-          <fa-icon [icon]="faHome" [fixedWidth]="true"></fa-icon> Ir al menú principal
-        </button>
-      </div>
     </div>
   </div>
 </div>
