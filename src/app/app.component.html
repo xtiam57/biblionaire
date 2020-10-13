@@ -1,1 +1,11 @@
 <router-outlet></router-outlet>
+
+<div class="btn-group">
+  <button routerLink="/" class="btn btn-link text-light" ngbTooltip="Ir al menú principal">
+    <fa-icon [icon]="faHome"></fa-icon>
+  </button>
+
+  <button (click)="fullScreen()" class="btn btn-link text-light" ngbTooltip="Activar/Desactivar pantalla completa">
+    <fa-icon [icon]="!isFullScreen ? faExpand : faCompress"></fa-icon>
+  </button>
+</div>

@@ -8,6 +8,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { MenuComponent } from './pages/menu/menu.component';
 import { GameComponent } from './pages/game/game.component';
 import { QuickMindComponent } from './pages/quick-mind/quick-mind.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,7 @@ import { QuickMindComponent } from './pages/quick-mind/quick-mind.component';
     GameComponent,
     QuickMindComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, FormsModule, NgbModule],
+  imports: [BrowserModule, AppRoutingModule, FormsModule, NgbModule, FontAwesomeModule],
   providers: [],
   bootstrap: [AppComponent],
 })

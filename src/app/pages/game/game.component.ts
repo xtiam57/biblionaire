@@ -1,6 +1,18 @@
 import { Component, OnInit } from '@angular/core';
 import { GameService } from '../../services/game.service';
 
+import {
+  faUser,
+  faBible,
+  faPhone,
+  faHandHoldingUsd,
+  faCheck,
+  faEye,
+  faArrowRight,
+  faBars,
+  faStarHalfAlt,
+} from '@fortawesome/free-solid-svg-icons';
+
 @Component({
   selector: 'app-game',
   templateUrl: './game.component.html',
@@ -8,6 +20,16 @@ import { GameService } from '../../services/game.service';
 })
 export class GameComponent implements OnInit {
   constructor(public gameService: GameService) {}
+
+  faUser = faUser;
+  faBible = faBible;
+  faPhone = faPhone;
+  faHandHoldingUsd = faHandHoldingUsd;
+  faCheck = faCheck;
+  faEye = faEye;
+  faArrowRight = faArrowRight;
+  faBars = faBars;
+  faStarHalfAlt = faStarHalfAlt;
 
   ngOnInit(): void {
     this.gameService.start();

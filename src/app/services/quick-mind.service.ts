@@ -16,6 +16,7 @@ export class QuickMindService {
   isTimerRunning = false;
   isAnswerRevealed = null;
   timeLeft = -1;
+  boundTime = 22;
 
   constructor(
     private audioService: AudioService,
@@ -44,7 +45,7 @@ export class QuickMindService {
   }
 
   startTimer(): void {
-    this.timeLeft = 22;
+    this.timeLeft = this.boundTime;
     this.isTimerRunning = true;
     this.audioService.play(AudioName.QUICK_MIND, 0.25);
 

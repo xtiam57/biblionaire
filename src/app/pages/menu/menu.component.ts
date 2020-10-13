@@ -4,6 +4,13 @@ import { QuestionsService } from '../../services/questions.service';
 import { AudioName } from '../../types/AudioName';
 import { Difficulty } from '../../types/Difficulty';
 
+import {
+  faClock,
+  faPlay,
+  faExpand,
+  faCompress,
+} from '@fortawesome/free-solid-svg-icons';
+
 @Component({
   selector: 'app-menu',
   templateUrl: './menu.component.html',
@@ -11,9 +18,14 @@ import { Difficulty } from '../../types/Difficulty';
 })
 export class MenuComponent implements OnInit {
   isFullScreen = false;
-  summary;
+  summary: string;
   basicTotal = 0;
   quickMindTotal = 0;
+
+  faClock = faClock;
+  faPlay = faPlay;
+  faExpand = faExpand;
+  faCompress = faCompress;
 
   constructor(
     public audioService: AudioService,
@@ -39,40 +51,17 @@ export class MenuComponent implements OnInit {
     this.basicTotal = this.questionsService.getQuestionsCount();
     this.quickMindTotal = this.questionsService.getQuickQuestions().length;
 
-    this.summary = `E: ${easyCount} /
-    ME: ${mediumEasyCount} /
-    M: ${mediumCount} /
-    H: ${hardCount} /
-    VH: ${veryHardCount} /
-    QM: ${this.quickMindTotal}`;
+    this.summary = `Fácil: ${easyCount} ·
+    Medio-Fácil: ${mediumEasyCount} ·
+    Medio: ${mediumCount} ·
+    Dificil: ${hardCount} ·
+    Muy Dificil: ${veryHardCount} ·
+    Mente Rápida: ${this.quickMindTotal}`;
   }
 
   changeVolume(quantity = 0.05): void {
     this.audioService.changeVolume(quantity);
   }
 
-  fullScreen(): void {
-    // if (!this.isFullScreen) {
-    //   const elem = document.documentElement;
-    //   const methodToBeInvoked =
-    //     elem.requestFullscreen ||
-    //     elem.webkitRequestFullScreen ||
-    //     elem['mozRequestFullscreen'] ||
-    //     elem['msRequestFullscreen'];
-    //   if (methodToBeInvoked) {
-    //     methodToBeInvoked.call(elem);
-    //     this.isFullScreen = true;
-    //   }
-    // } else {
-    //   const methodToBeInvoked =
-    //     document.exitFullscreen ||
-    //     document.webkitExitFullscreen ||
-    //     document['mozCancelFullScreen'] ||
-    //     document['msExitFullscreen'];
-    //   if (methodToBeInvoked) {
-    //     methodToBeInvoked.call(document);
-    //     this.isFullScreen = false;
-    //   }
-    // }
-  }
+
 }

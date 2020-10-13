@@ -1,0 +1,41 @@
+
+
+.game-question {
+  text-align: center;
+
+  p {
+    font-size: 1.5rem;
+    padding: 1.2rem;
+    color: #343233;
+    // color: var(--primary);
+    // border: solid 1px var(--primary);
+    background-color: var(--primary);
+    border-radius: 0.25rem;
+  }
+
+  .game-options {
+    .game-option {
+      text-align: left;
+      font-size: 1.2rem;
+      padding: 0.8em 1.2em;
+      background-color: var(--dark);
+      border: 2px solid #4e4b4d;
+      border-radius: 0.25rem;
+      margin-bottom: 0.8rem;
+
+      &.disabled {
+        pointer-events: none;
+        cursor: default;
+      }
+
+      &.big {
+        font-size: 1.5em;
+      }
+
+      span {
+        color: var(--secondary);
+        font-weight: bold;
+      }
+    }
+  }
+}

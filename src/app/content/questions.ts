@@ -673,7 +673,7 @@ export const questions: IQuestion[] = [
     reference: '',
   },
   {
-    question: '¿Cuál es el nombre del río en el cual Jesús fue bautizado?',
+    question: '¿Cuál es el nombre del río en el cual fue bautizado Jesús?',
     options: ['Jordán', 'Nilo', 'Éufrates', 'Tigris'],
     difficulty: Difficulty.EASY,
     reference: '',

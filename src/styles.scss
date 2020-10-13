@@ -1,9 +1,44 @@
 /* You can add global styles to this file, and also import other style files */
 $theme-colors: (
-  "primary": #A02F89,
-  "secondary": #28CBE0,
-  "dark": #1f2125
+  "primary": #45EDC6,
+  "secondary": #ffd152,
+  "dark": #2C2A2B,
+  "light": #efdab9
 );
+
+$body-color: #efdab9;
+$body-bg: #343233;
+$grid-gutter-width: 1.2rem;
 
 /* Importing Bootstrap SCSS file. */
 @import '~bootstrap/scss/bootstrap';
+
+::selection {
+  color: var(--dark);
+  background: var(--primary);
+}
+
+.no-click {
+  pointer-events: none;
+  cursor: default;
+}
+
+// :root {
+//   --turquoise: #45EDC6;
+//   --white: #ffffff;
+//   --white-ter: hsl(0, 0%, 96%);
+//   --white-bis: hsl(0, 0%, 98%);
+//   --black: #000000;
+//   --brown: #343233;
+//   --yellow: #ffd152;
+//   --baige: #efdab9;
+//   --red: hsl(348, 86%, 61%);
+//   --orange: hsl(14, 100%, 53%);
+//   --green: hsl(141, 53%, 53%);
+//   --grey-darker: hsl(0, 0%, 21%);
+//   --gray: hsl(0, 0%, 48%);
+//   --grey-light: hsl(0, 0%, 71%);
+//   --grey-lighter: hsl(0, 0%, 86%);
+//   --grey-lightest: hsl(0, 0%, 93%);
+// }
+

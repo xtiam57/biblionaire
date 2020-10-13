@@ -10,11 +10,11 @@ const routes: Routes = [
     component: MenuComponent,
   },
   {
-    path: 'game',
+    path: 'jugar',
     component: GameComponent,
   },
   {
-    path: 'quick-mind',
+    path: 'mente-rapida',
     component: QuickMindComponent,
   },
 ];
