@@ -1,6 +1,6 @@
 <div class="container">
   <div class="row vh-100 align-items-center">
-    <div class="col-sm-12">
+    <div class="col-12 col-lg-8 offset-lg-2">
       <!-- <div class="btn-toolbar justify-content-between" role="toolbar">
                     <div class="btn-group">
                       <button class="btn btn-outline-light no-click font-weight-bold" ngbTooltip="Número de la pregunta actual">
@@ -76,7 +76,7 @@
 
 
         <div class="row game-options">
-          <div *ngFor="let option of gameService.getCurrentQuestion().options; index as i" class="col-12 col-md-6 ">
+          <div *ngFor="let option of gameService.getCurrentQuestion().options; index as i" class="col-12 col-md-6">
             <div class="game-option" (click)="gameService.selectOption(i)"
                  [ngClass]="{ 'selected': gameService.isOptionSelected(i), 'disabled': gameService.isFinalAnswerSelected || gameService.hasQuit, 'blink': gameService.isBlinking(i), 'hidden': gameService.isHidden(i) }">
               <span>{{ gameService.getOptionLetter(i) }}:</span>
