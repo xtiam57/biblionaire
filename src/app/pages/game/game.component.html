@@ -33,9 +33,21 @@
 
       <div class="game-board">
         <div class="game-question">
-          <p>
-            {{ gameService.getCurrentQuestion().question }}
-          </p>
+          <div class="game-question-wrapper mb-3">
+            <p>
+              {{ gameService.getCurrentQuestion().question }}
+            </p>
+
+<button *ngIf="gameService.isFinalAnswerSelected && !gameService.isAnswerRevealed && !gameService.hasQuit"
+        (click)="gameService.revealAnswer()" class="btn btn-secondary" title="Revelar Respuesta">
+  <fa-icon [icon]="faEye" [fixedWidth]="true"></fa-icon>
+</button>
+
+<button *ngIf="gameService.isCorrectAnswer() && !gameService.hasQuit && !gameService.isEnd()"
+        (click)="gameService.getNextQuestion()" class="btn btn-secondary" title="Siguiente Pregunta">
+  <fa-icon [icon]="faArrowRight" [fixedWidth]="true"></fa-icon>
+</button>
+</div>
 
           <div *ngIf="gameService.timeLeft >= 0 && gameService.timeLeft <= gameService.boundTime && !gameService.isAnswerRevealed"
                class="mb-3">
@@ -43,36 +55,29 @@
             </ngb-progressbar>
           </div>
 
-          <small class="d-block text-primary mb-3" *ngIf="gameService.isFloor()">
+          <small class="d-block text-primary text-left mb-3" *ngIf="gameService.isFloor()">
             Si respondes correctamente esta pregunta puedes asegurar la cantidad de puntos ganados hasta ahora.
           </small>
 
           <div class="row game-options">
             <div *ngFor="let option of gameService.getCurrentQuestion().options; index as i" class="col-12 col-md-6">
-              <div class="game-option" (click)="gameService.selectOption(i)"
-                   [ngClass]="{ 'selected': gameService.isOptionSelected(i), 'disabled': gameService.isFinalAnswerSelected || gameService.hasQuit, 'blink': gameService.isBlinking(i), 'hidden': gameService.isHidden(i) }">
-                <span>{{ gameService.getOptionLetter(i) }}:</span>
-                {{ option }}
+              <div class="option-wrapper">
+                <div class="game-option" (click)="gameService.selectOption(i)"
+                     [ngClass]="{ 'selected': gameService.isOptionSelected(i), 'disabled': gameService.isFinalAnswerSelected || gameService.hasQuit, 'blink': gameService.isBlinking(i), 'hidden': gameService.isHidden(i) }">
+                  <span>{{ gameService.getOptionLetter(i) }}:</span>
+                  {{ option }}
+                </div>
+
+                <button *ngIf="gameService.isOptionSelected(i) && gameService.isOptionSelected() && !gameService.isFinalAnswerSelected && !gameService.hasQuit"
+                        (click)="gameService.chooseFinalAnswer()" class="btn btn-outline-secondary"
+                        [disabled]="gameService.isTimerRunning" title="Respuesta Definitiva">
+                  <fa-icon [icon]="faCheck" [fixedWidth]="true"></fa-icon>
+                </button>
               </div>
+
             </div>
-          </div>
-          <div class="text-center">
-            <button *ngIf="gameService.isOptionSelected() && !gameService.isFinalAnswerSelected && !gameService.hasQuit"
-                    (click)="gameService.chooseFinalAnswer()" class="btn btn-link"
-                    [disabled]="gameService.isTimerRunning">
-              <fa-icon [icon]="faCheck" [fixedWidth]="true"></fa-icon> Respuesta Definitiva
-            </button>
-
-            <button *ngIf="gameService.isFinalAnswerSelected && !gameService.isAnswerRevealed && !gameService.hasQuit"
-                    (click)="gameService.revealAnswer()" class="btn btn-link">
-              <fa-icon [icon]="faEye" [fixedWidth]="true"></fa-icon> Revelar Respuesta
-            </button>
-
-            <button *ngIf="gameService.isCorrectAnswer() && !gameService.hasQuit && !gameService.isEnd()"
-                    (click)="gameService.getNextQuestion()" class="btn btn-link">
-              Siguiente Pregunta <fa-icon [icon]="faArrowRight" [fixedWidth]="true"></fa-icon>
-            </button>
-
+            </div>
+            <div class="text-left">
             <button routerLink="/"
                     *ngIf="(gameService.isAnswerRevealed && gameService.isIncorrectAnswer()) || gameService.hasQuit || (gameService.isAnswerRevealed && gameService.isEnd())"
                     class="btn btn-link">
@@ -84,18 +89,18 @@
         <div class="game-lifelines">
           <div class="btn-group-vertical btn-group-lg"
                [ngClass]="{ 'mb-3': gameService.lifelines.fiftyFifty || gameService.lifelines.bible || gameService.lifelines.call }">
-            <button (click)="gameService.useFiftyFifty()" class="btn btn-outline-secondary"
+            <button (click)="gameService.useFiftyFifty()" class="btn btn-outline-light"
                     *ngIf="gameService.lifelines.fiftyFifty"
                     [disabled]="gameService.isFinalAnswerSelected || gameService.isTimerRunning || gameService.hasQuit"
                     title="Comodín 50-50: elimina automáticamente dos opciones incorrectas">
               <fa-icon [icon]="faStarHalfAlt"></fa-icon>
             </button>
-            <button (click)="gameService.useBible()" class="btn btn-outline-secondary" *ngIf="gameService.lifelines.bible"
+            <button (click)="gameService.useBible()" class="btn btn-outline-light" *ngIf="gameService.lifelines.bible"
                     [disabled]="gameService.isFinalAnswerSelected|| gameService.isTimerRunning || gameService.hasQuit"
                     title="Comodín usa la Biblia: puedes tomar tu Biblia y buscar la respuesta correcta">
               <fa-icon [icon]="faBible"></fa-icon>
             </button>
-            <button (click)="gameService.useCall()" class="btn btn-outline-secondary" *ngIf="gameService.lifelines.call"
+            <button (click)="gameService.useCall()" class="btn btn-outline-light" *ngIf="gameService.lifelines.call"
                     [disabled]="gameService.isFinalAnswerSelected|| gameService.isTimerRunning || gameService.hasQuit"
                     title="Comodín llamar a un amigo: llama a un amigo y consulta por la respuesta correcta">
               <fa-icon [icon]="faPhone"></fa-icon>

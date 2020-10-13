@@ -10,29 +10,54 @@
   display: flex;
   flex-direction: column;
   margin-left: 1rem;
-
 }
 
 .game-question {
   text-align: center;
 
-  p {
-    font-size: 1.5rem;
-    padding: 1.2rem;
-    color: #343233;
-    background-color: var(--primary);
+  .game-question-wrapper {
+    display: flex;
     border-radius: 0.25rem;
+    border: solid 1px var(--primary);
+    overflow: hidden;
+
+    p {
+      font-size: calc(1.5rem + 0.03vmin);
+      padding: 1.2rem;
+      color: #343233;
+      background-color: var(--primary);
+      margin-bottom: 0;
+      width: 100%;
+    }
+
+    .btn {
+      border-radius: 0;
+      border: none;
+    }
   }
 
   .game-options {
+    .option-wrapper {
+      display: flex;
+      border: 2px solid #4e4b4d;
+      border-radius: 0.25rem;
+      margin-bottom: 0.8rem;
+      overflow: hidden;
+
+      .btn {
+        border-radius: 0;
+        border: none;
+      }
+    }
+
     .game-option {
       text-align: left;
       font-size: 1.2rem;
       padding: 0.8em 1.2em;
       background-color: var(--dark);
-      border: 2px solid #4e4b4d;
-      border-radius: 0.25rem;
-      margin-bottom: 0.8rem;
+
+      width: 100%;
+
       cursor: pointer;
 
       &.selected {

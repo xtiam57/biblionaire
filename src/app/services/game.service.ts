@@ -90,7 +90,7 @@ export class GameService {
 
   getCurrentFloorPrice(): string {
     if (this.currentQuestionIndex < 5) {
-      return '0 pts';
+      return '0';
     }
     if (this.currentQuestionIndex >= 5 && this.currentQuestionIndex < 10) {
       return prices[4];
@@ -243,7 +243,7 @@ export class GameService {
 
   getEarnedPrice(): string {
     if (!this.currentQuestionIndex) {
-      return '0 pts';
+      return '0';
     }
     return prices[this.currentQuestionIndex - 1];
   }
