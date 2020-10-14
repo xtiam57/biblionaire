@@ -1,13 +1,22 @@
 <div class="container">
-  <div class="row vh-100 align-items-center">
+  <div class="row h-100 align-items-start align-items-sm-center">
     <div class="col-12 col-lg-8 offset-lg-2">
-      <div class="mb-4" *ngIf="!quickMindService.isAnswerRevealed">
-        <h1 class="display-1 text-uppercase text-secondary">Mente-rápida</h1>
-        <p class="lead">¿Quién podrá complir con el reto antes de que se acabe el tiempo?</p>
-      </div>
-
       <div class="game-question">
-        <p *ngIf="!quickMindService.isAnswerRevealed">{{ quickMindService.getCurrentQuestion().question }}</p>
+        <div *ngIf="!quickMindService.isAnswerRevealed" class="game-question-wrapper mb-3">
+          <p>
+            {{ quickMindService.getCurrentQuestion().question }}
+          </p>
+
+          <button *ngIf="!quickMindService.hasStarted && quickMindService.getCurrentQuestion().options.length"
+                  (click)="quickMindService.play()" class="btn btn-secondary" title="Comenzar">
+            <fa-icon [icon]="faPlay" [fixedWidth]="true"></fa-icon>
+          </button>
+
+          <button *ngIf="!quickMindService.isTimerRunning && !quickMindService.isAnswerRevealed && quickMindService.hasStarted"
+                  (click)="quickMindService.revealAnswer()" class="btn btn-secondary" title="Revelar Respuesta">
+            <fa-icon [icon]="faEye" [fixedWidth]="true"></fa-icon>
+          </button>
+        </div>
 
         <div *ngIf="quickMindService.timeLeft >= 0 && quickMindService.timeLeft <= 20 && !quickMindService.isAnswerRevealed"
              class="mb-3">
@@ -15,6 +24,10 @@
                            height="0.5rem">
           </ngb-progressbar>
         </div>
+
+        <small class="d-block text-center mb-3">
+          Juega con tus amigos tratando de realizar los retos en el menor tiempo posible o antes de que el tiempo se agote.
+        </small>
 
         <div *ngIf="!quickMindService.isAnswerRevealed" class="row game-options">
           <div *ngFor="let option of quickMindService.getCurrentQuestion().options; index as i" class="col-12 col-md-6">
@@ -38,20 +51,14 @@
         </div>
 
         <div class="text-center">
-          <button *ngIf="!quickMindService.hasStarted && quickMindService.getCurrentQuestion().options.length"
-                  (click)="quickMindService.play()" class="btn btn-link">
-            <fa-icon [icon]="faPlay" [fixedWidth]="true"></fa-icon> Comenzar
-          </button>
 
-          <button *ngIf="!quickMindService.isTimerRunning && !quickMindService.isAnswerRevealed && quickMindService.hasStarted"
-                  (click)="quickMindService.revealAnswer()" class="btn btn-link">
-            <fa-icon [icon]="faEye" [fixedWidth]="true"></fa-icon> Revelar Respuesta
-          </button>
+
+
 
           <button routerLink="/"
                   *ngIf="quickMindService.isAnswerRevealed || !quickMindService.getCurrentQuestion().options.length"
                   class="btn btn-link">
-            <fa-icon [icon]="faHome" [fixedWidth]="true"></fa-icon> Ir al menú principal
+            Ir al menú principal
           </button>
         </div>
 

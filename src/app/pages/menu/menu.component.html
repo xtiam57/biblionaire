@@ -1,9 +1,15 @@
 <div class="container">
   <div class="row vh-100 align-items-center">
-    <div class="col-12 text-center">
-      <!-- <img src="assets/images/logo.png" alt=""> -->
-      <h1 class="display-1 text-uppercase text-primary">Biblionaire</h1>
-      <p class="lead mb-5">El juego que pone a prueba todos tus conocimientos bíblicos</p>
+    <div class="col-12 d-flex flex-column text-center">
+      <app-logo></app-logo>
+
+      <div class="display-1 text-uppercase text-primary">
+        Biblionaire
+      </div>
+
+      <p class="lead mb-4">
+        El juego que pone a prueba todos tus conocimientos bíblicos
+      </p>
 
       <div class="col-sm-12 col-md-6 offset-md-3">
         <button routerLink="/jugar" class="btn btn-secondary btn-lg btn-block" *ngIf="basicTotal > 0">
@@ -14,12 +20,10 @@
           <fa-icon [icon]="faClock" [fixedWidth]="true"></fa-icon> Mente-rápida
         </button>
 
-        <p class="text-center mt-3">
-          <small>
-            Creado por Christiam Mena (v1.0.0) <br />
-            <a href="https://github.com/xtiam57/biblionaire" target="_blank">@xtiam57</a>
-          </small>
-        </p>
+        <small class="d-block mt-3">
+          Creado por Christiam Mena (v1.0.0) <br />
+          <a href="https://github.com/xtiam57/biblionaire" target="_blank">@xtiam57</a>
+        </small>
       </div>
     </div>
   </div>

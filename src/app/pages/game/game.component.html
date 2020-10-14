@@ -1,5 +1,5 @@
 <div class="container">
-  <div class="row vh-100 align-items-center">
+  <div class="row h-100 align-items-start align-items-sm-center">
     <div class="col-12 col-lg-8 offset-lg-2">
       <div class="mb-4">
         <h1 class="display-1">
@@ -13,7 +13,7 @@
             ¡Correcto!
           </span>
           <span class="text-danger" *ngIf="gameService.isIncorrectAnswer()">
-            Game Over
+            Has Perdido...
           </span>
         </h1>
         <p class="lead">
@@ -26,7 +26,7 @@
           </span>
           <span *ngIf="!gameService.isAnswerRevealed && !gameService.hasQuit">/</span>
           <span *ngIf="!gameService.isAnswerRevealed && !gameService.hasQuit" class="text-primary">
-            Asegurado en caso de perder: {{ gameService.getCurrentFloorPrice() }}
+            Asegurado: {{ gameService.getCurrentFloorPrice() }}
           </span>
         </p>
       </div>
@@ -55,8 +55,8 @@
             </ngb-progressbar>
           </div>
 
-          <small class="d-block text-primary text-left mb-3" *ngIf="gameService.isFloor()">
-            Si respondes correctamente esta pregunta puedes asegurar la cantidad de puntos ganados hasta ahora.
+          <small class="d-block text-secondary text-left mb-3" *ngIf="gameService.isFloor()">
+            Si respondes correctamente esta pregunta puedes asegurar la cantidad ganada hasta ahora.
           </small>
 
           <div class="row game-options">
@@ -81,7 +81,7 @@
             <button routerLink="/"
                     *ngIf="(gameService.isAnswerRevealed && gameService.isIncorrectAnswer()) || gameService.hasQuit || (gameService.isAnswerRevealed && gameService.isEnd())"
                     class="btn btn-link">
-              <fa-icon [icon]="faHome" [fixedWidth]="true"></fa-icon> Ir al menú principal
+              Ir al menú principal
             </button>
           </div>
         </div>

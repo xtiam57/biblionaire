@@ -1,15 +1,19 @@
-<div class="btn-group">
-  <button routerLink="/" class="btn btn-link text-light" title="Ir al menú principal">
-    <fa-icon [icon]="faHome"></fa-icon>
-  </button>
+<nav class="navbar fixed-top navbar-dark bg-dark shadow-sm">
+  <div class="container-fluid justify-content-end">
+    <div class="btn-group">
+      <button routerLink="/" class="btn btn-link text-light" title="Ir al menú principal">
+        <fa-icon [icon]="faHome"></fa-icon>
+      </button>
 
-  <button (click)="toggleVolume()" class="btn btn-link text-light" title="Activar/Desactivar el volumen">
-    <fa-icon [icon]="isMuted ? faVolumeMute : faVolumeUp"></fa-icon>
-  </button>
+      <button (click)="toggleVolume()" class="btn btn-link text-light" title="Activar/Desactivar el volumen">
+        <fa-icon [icon]="isMuted ? faVolumeMute : faVolumeUp"></fa-icon>
+      </button>
 
-  <button (click)="fullScreen()" class="btn btn-link text-light" title="Activar/Desactivar pantalla completa">
-    <fa-icon [icon]="!isFullScreen ? faExpand : faCompress"></fa-icon>
-  </button>
-</div>
+      <button (click)="fullScreen()" class="btn btn-link text-light" title="Activar/Desactivar pantalla completa">
+        <fa-icon [icon]="!isFullScreen ? faExpand : faCompress"></fa-icon>
+      </button>
+    </div>
+  </div>
+  </nav>
 
 <router-outlet></router-outlet>

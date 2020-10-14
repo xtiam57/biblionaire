@@ -1,5 +1,10 @@
+.container {
+  padding-top: 70px;
+  height: calc(100vh - 70px);
+}
+
 .display-1 {
-  font-size: calc(2rem + 4vmin);
+  font-size: calc(2rem + 3.5vmin);
 }
 
 .game-board {
@@ -22,7 +27,7 @@
     overflow: hidden;
 
     p {
-      font-size: calc(1.5rem + 0.03vmin);
+      font-size: calc(1.2rem + 0.5vmin);
       padding: 1.2rem;
       color: #343233;
       background-color: var(--primary);

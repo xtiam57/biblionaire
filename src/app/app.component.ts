@@ -24,7 +24,9 @@ export class AppComponent {
   faVolumeUp = faVolumeUp;
   faVolumeMute = faVolumeMute;
 
-  constructor(private audioService: AudioService) {  }
+  constructor(private audioService: AudioService) {
+    this.audioService.mute();
+  }
 
   toggleVolume(): void {
     this.isMuted ? this.audioService.unmute() : this.audioService.mute();
