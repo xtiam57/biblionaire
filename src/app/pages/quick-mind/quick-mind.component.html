@@ -2,47 +2,62 @@
   <div class="row h-100 align-items-start align-items-sm-center">
     <div class="col-12 col-lg-8 offset-lg-2">
       <div class="game-question">
-        <div *ngIf="!quickMindService.isAnswerRevealed" class="game-question-wrapper mb-3">
+        <div *ngIf="!quickMindService.isAnswerRevealed"
+             class="game-question-wrapper mb-3">
           <p>
             {{ quickMindService.getCurrentQuestion().question }}
           </p>
 
           <button *ngIf="!quickMindService.hasStarted && quickMindService.getCurrentQuestion().options.length"
-                  (click)="quickMindService.play()" class="btn btn-secondary" title="Comenzar">
-            <fa-icon [icon]="faPlay" [fixedWidth]="true"></fa-icon>
+                  (click)="quickMindService.play()"
+                  class="btn btn-secondary"
+                  title="Comenzar">
+            <fa-icon [icon]="faPlay"
+                     [fixedWidth]="true"></fa-icon>
           </button>
 
           <button *ngIf="!quickMindService.isTimerRunning && !quickMindService.isAnswerRevealed && quickMindService.hasStarted"
-                  (click)="quickMindService.revealAnswer()" class="btn btn-secondary" title="Revelar Respuesta">
-            <fa-icon [icon]="faEye" [fixedWidth]="true"></fa-icon>
+                  (click)="quickMindService.revealAnswer()"
+                  class="btn btn-secondary"
+                  title="Revelar Respuesta">
+            <fa-icon [icon]="faEye"
+                     [fixedWidth]="true"></fa-icon>
           </button>
         </div>
 
         <div *ngIf="quickMindService.timeLeft >= 0 && quickMindService.timeLeft <= 20 && !quickMindService.isAnswerRevealed"
              class="mb-3">
-          <ngb-progressbar type="secondary" [value]="quickMindService.timeLeft" [max]="quickMindService.boundTime"
-                           height="0.5rem">
-          </ngb-progressbar>
+          <ngb-progressbar type="secondary"
+                           [value]="quickMindService.timeLeft"
+                           [max]="quickMindService.boundTime"
+                           height="0.5rem"></ngb-progressbar>
         </div>
 
-        <small *ngIf="!quickMindService.isAnswerRevealed" class="d-block text-center mb-3">
-          Juega con tus amigos tratando de realizar los retos en el menor tiempo posible o antes de que el tiempo se agote.
+        <small *ngIf="!quickMindService.isAnswerRevealed"
+               class="d-block text-center mb-3">
+          Juega con tus amigos tratando de realizar los retos en el menor tiempo posible o antes de que el tiempo se
+          agote.
         </small>
 
-        <div *ngIf="!quickMindService.isAnswerRevealed" class="row game-options">
-          <div *ngFor="let option of quickMindService.getCurrentQuestion().options; index as i" class="col-12 col-md-6">
-            <div class="game-option disabled" [ngClass]="{ 'hidden': !quickMindService.hasStarted }">
+        <div *ngIf="!quickMindService.isAnswerRevealed"
+             class="row game-options">
+          <div *ngFor="let option of quickMindService.getCurrentQuestion().options; index as i"
+               class="col-12 col-md-6">
+            <div class="game-option disabled"
+                 [ngClass]="{ 'hidden': !quickMindService.hasStarted }">
               <span>{{ quickMindService.getOptionLetter(i) }}:</span>
               {{ option }}
             </div>
           </div>
         </div>
 
-        <div *ngIf="quickMindService.isAnswerRevealed" class="row game-options">
+        <div *ngIf="quickMindService.isAnswerRevealed"
+             class="row game-options">
           <div class="col-12 mb-3">
             El orden correcto es:
           </div>
-          <div *ngFor="let option of quickMindService.getCurrentQuestion().ordered" class="col-sm-12 col-md-6 offset-md-3">
+          <div *ngFor="let option of quickMindService.getCurrentQuestion().ordered"
+               class="col-sm-12 col-md-6 offset-md-3">
             <div class="game-option disabled big">
               <span>{{ option.letter }}:</span>
               {{ option.text }}
@@ -51,20 +66,13 @@
         </div>
 
         <div class="text-center">
-
-
-
-
           <button routerLink="/"
                   *ngIf="quickMindService.isAnswerRevealed || !quickMindService.getCurrentQuestion().options.length"
                   class="btn btn-link">
             Ir al menú principal
           </button>
         </div>
-
-
       </div>
-
     </div>
   </div>
 </div>

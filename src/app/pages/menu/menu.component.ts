@@ -62,6 +62,4 @@ export class MenuComponent implements OnInit {
   changeVolume(quantity = 0.05): void {
     this.audioService.changeVolume(quantity);
   }
-
-
 }

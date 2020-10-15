@@ -1,3 +1,7 @@
 .btn {
   box-shadow: none;
+
+  &:last-child {
+    padding-right: 0;
+  }
 }

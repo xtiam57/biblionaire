@@ -12,19 +12,27 @@
       </p>
 
       <div class="col-sm-12 col-md-6 offset-md-3">
-        <button routerLink="/jugar" class="btn btn-secondary btn-lg btn-block" *ngIf="basicTotal > 0">
-          <fa-icon [icon]="faPlay" [fixedWidth]="true"></fa-icon> Empezar a jugar
+        <button routerLink="/jugar"
+                class="btn btn-secondary btn-lg btn-block"
+                *ngIf="basicTotal > 0">
+          <fa-icon [icon]="faPlay"
+                   [fixedWidth]="true"></fa-icon> Empezar a jugar
         </button>
 
-        <button routerLink="/mente-rapida" class="btn btn-lg btn-outline-light btn-block" *ngIf="quickMindTotal > 0">
-          <fa-icon [icon]="faClock" [fixedWidth]="true"></fa-icon> Mente-rápida
+        <button routerLink="/mente-rapida"
+                class="btn btn-lg btn-outline-light btn-block"
+                *ngIf="quickMindTotal > 0">
+          <fa-icon [icon]="faClock"
+                   [fixedWidth]="true"></fa-icon> Mente-rápida
         </button>
 
         <small class="d-block mt-3">
           Creado por Christiam Mena (v1.0.5) <br />
-          <a href="https://github.com/xtiam57/biblionaire" target="_blank">@xtiam57</a>
+          <a href="https://github.com/xtiam57/biblionaire"
+             target="_blank">@xtiam57</a>
         </small>
       </div>
+
     </div>
   </div>
 </div>

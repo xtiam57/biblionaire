@@ -10,7 +10,6 @@ import { GameComponent } from './pages/game/game.component';
 import { QuickMindComponent } from './pages/quick-mind/quick-mind.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { LogoComponent } from './components/logo/logo.component';
-import { WidthDirective } from './directives/width.directive';
 
 @NgModule({
   declarations: [
@@ -19,9 +18,14 @@ import { WidthDirective } from './directives/width.directive';
     GameComponent,
     QuickMindComponent,
     LogoComponent,
-    WidthDirective,
   ],
-  imports: [BrowserModule, AppRoutingModule, FormsModule, NgbModule, FontAwesomeModule],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    FormsModule,
+    NgbModule,
+    FontAwesomeModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })
