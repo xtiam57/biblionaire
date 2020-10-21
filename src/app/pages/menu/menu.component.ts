@@ -9,6 +9,7 @@ import {
   faPlay,
   faExpand,
   faCompress,
+  faHeart,
 } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
@@ -26,6 +27,7 @@ export class MenuComponent implements OnInit {
   faPlay = faPlay;
   faExpand = faExpand;
   faCompress = faCompress;
+  faHeart = faHeart;
 
   constructor(
     public audioService: AudioService,
