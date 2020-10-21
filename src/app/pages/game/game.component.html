@@ -74,7 +74,7 @@
 
           <small class="d-block text-secondary text-left mb-3"
                  *ngIf="gameService.isFloor()">
-            Si respondes correctamente esta pregunta puedes asegurar la cantidad ganada hasta ahora.
+            Si respondes correctamente esta pregunta puedes asegurar {{ gameService.getCurrentPrice() }}.
           </small>
 
           <div class="row game-options">
