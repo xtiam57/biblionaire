@@ -13,7 +13,7 @@ EASY
 ¿Quién dijo "Muera yo ahora, ya que he visto tu rostro, y sé que aún vives"?
 Israel, Moisés, Josué, Pablo
 VERY_HARD
-
+Génesis 46:30
 ---
 ¿En qué versículo se registra que Jesús cantó?
 Mateo 26:30, Mateo 24:25, Mateo 25:30, Mateo 27:25
@@ -28,12 +28,12 @@ EASY
 ¿A cuál animal Dios privó de inteligencia?
 Avestruz, Hormiga, Pavoreal, Leviatán
 MEDIUM_EASY
-
+Job 39:13-17
 ---
 ¿Quién es considerado en la Biblia "El hombre más manso"?
 Moisés, Pablo, Pedro, Caleb
 EASY
-
+Números 12:3
 ---
 ¿Qué misionero evangelizó a los pieles rojas?
 David Brainerd, William Carey, John Wesley, George Whitefield
@@ -43,27 +43,27 @@ VERY_HARD
 ¿Que hombre tenía una larga y pesada cabellera?
 Absalón, Sansón, Juan el Bautista, Roboam
 MEDIUM
-
+2 Samuel 14:25-26
 ---
 ¿Que hombre no llevó duelo cuando murieron sus hijos?
 Aarón, Adán, David, Nehemías
 HARD
-
+Levítico 10
 ---
 ¿Cuál era el nombre original de Josué?
 Oseas, Nunca cambió su nombre, Caleb, Jozías
 MEDIUM
-
+Números 13:16
 ---
 ¿Quién dio el sermón más largo de la Biblia?
 Pablo, Jesús, Pedro, Moisés
 MEDIUM
-
+Hechos 20:7-11
 ---
 ¿Quién dijo "Señor, no tienes con qué sacarla, y el pozo es hondo. ¿de dónde, pues, tienes el agua viva?"?
 Mujer samaritana, Viuda de Sarepta, Mujer adultera, María Magdalena
 MEDIUM
-
+Juan 4:11
 ---
 ¿En qué libro de la Biblia se menciona a más animales?
 Levítico 11, Génesis 7, Levítico 9, Proverbios 5
@@ -78,67 +78,67 @@ HARD
 Jesús fue crucificado entre dos personas, estás dos personas ¿quiénes fueron?
 Ladrones, Rebeldes, Recaudadores, Traidores
 EASY
-
+Marcos 15:27
 ---
 ¿Quién dijo "¿Quién es Jehová, para que yo oiga su voz y deje ir a Israel? Yo no conozco a Jehová, ni tampoco dejaré ir a Israel"?
 Faraón, Moisés, Nabucodonosor, Pablo
 EASY
-
+Éxodo 5:2
 ---
 ¿Quién de los siguientes NO fue discípulo de Jesús?
 Marcos, Santiago, Mateo, Bartolomé
 VERY_HARD
-
+Mateo 10:2-4
 ---
 ¿Quién dijo "Por voluntad de Jehová he adquirido varón"?
 Eva, Sara, Raquel, Ana
 HARD
-
+Génesis 4:1
 ---
 ¿A quién se refieren las siguientes pistas: "carne, sueño, mujer, huesos, costilla"?
 Adán, Goliat, David, José
 EASY
-
+Génesis 2
 ---
 ¿Quién dijo "Mi corazón se regocija en Jehová, Mi poder se exalta en Jehová; Mi boca se ensanchó sobre mis enemigos, Por cuanto me alegré en tu salvación"?
 Ana, David, Jeremías, Josué
 VERY_HARD
-
+1 Samuel 2:1
 ---
 ¿Cuántos años habitaron los israelitas en Egipto antes de ser libertados?
 430 años, 400 años, 410 años, 100 años
 MEDIUM
-
+Éxodo 12:40
 ---
 Moisés e Israel llegaron a un lugar llamado Elim, ¿cuántas palmeras y cuantas fuentes había en ese lugar?
 12 fuentes y 70 palmeras, 70 fuentes y 12 palmeras, 12 fuentes y 12 palmeras, 7 fuentes y 70 palmeras
 VERY_HARD
-
+Éxodo 15:27
 ---
 ¿Cuánto tiempo dio Nabucodonosor a Daniel para que aprendiera la lengua y escritura de los caldeos?
 3 años, 3 meses, 1 año, 6 meses
 HARD
-
+Daniel 1:5
 ---
 ¿Cuántas vueltas dio a Jericó el ejercito de Josué antes del asalto a la ciudad?
 13 vueltas, 7 vueltas, 14 vueltas, 12 vueltas
 MEDIUM_EASY
-
+Josué 6:3-4
 ---
 Y le dieron nombre las vecinas, y lo llamaron...
 Obed, Oseas, Eliú, Jefté
 HARD
-
+Rut 4:17
 ---
 ¿Nombre del personaje al que su asna aplastó su pie contra la pared?
 Balaam, Balaac, Baal, Jonás
 MEDIUM_EASY
-
+Números 22:25
 ---
 ¿En casa de quién se alojaron los espías que Josué envió a Jericó?
 Rahab, María, Salomé, Racab
 MEDIUM_EASY
-
+Josué 2:1
 ---
 ¿Con cuántos hombres venció Gedeón a los medianitas?
 300 hombres, 350 hombres, 200 hombres, 600 hombres
