@@ -1,0 +1,1047 @@
+# ESTRUCTURA BÁSICA:
+# Línea 1: pregunta
+# Línea 2: Opciones separadas por "," en donde la primera es la correcta
+# Línea 3: Dificultad: EASY, MEDIUM_EASY, MEDIUM, HARD, VERY_HARD
+# Línea 4: Cita o referencia bíblica. Si no hay dejar la línea vacía
+# Línea 5: Separador de pregunta ---
+#
+¿Cuál fue la ciudad principal de los israelitas?
+Jersusalén, Roma, Babilonia, Vaticano
+EASY
+
+---
+¿Quién dijo "Muera yo ahora, ya que he visto tu rostro, y sé que aún vives"?
+Israel, Moisés, Josué, Pablo
+VERY_HARD
+
+---
+¿En qué versículo se registra que Jesús cantó?
+Mateo 26:30, Mateo 24:25, Mateo 25:30, Mateo 27:25
+VERY_HARD
+
+---
+¿Qué capítulo es considerado el “Salón de la fama de la fe”?
+Hebreos 11, Mateo 11, Juan 11, Hechos 11
+EASY
+
+---
+¿A cuál animal Dios privó de inteligencia?
+Avestruz, Hormiga, Pavoreal, Leviatán
+MEDIUM_EASY
+
+---
+¿Quién es considerado en la Biblia "El hombre más manso"?
+Moisés, Pablo, Pedro, Caleb
+EASY
+
+---
+¿Qué misionero evangelizó a los pieles rojas?
+David Brainerd, William Carey, John Wesley, George Whitefield
+VERY_HARD
+
+---
+¿Que hombre tenía una larga y pesada cabellera?
+Absalón, Sansón, Juan el Bautista, Roboam
+MEDIUM
+
+---
+¿Que hombre no llevó duelo cuando murieron sus hijos?
+Aarón, Adán, David, Nehemías
+HARD
+
+---
+¿Cuál era el nombre original de Josué?
+Oseas, Nunca cambió su nombre, Caleb, Jozías
+MEDIUM
+
+---
+¿Quién dio el sermón más largo de la Biblia?
+Pablo, Jesús, Pedro, Moisés
+MEDIUM
+
+---
+¿Quién dijo "Señor, no tienes con qué sacarla, y el pozo es hondo. ¿de dónde, pues, tienes el agua viva?"?
+Mujer samaritana, Viuda de Sarepta, Mujer adultera, María Magdalena
+MEDIUM
+
+---
+¿En qué libro de la Biblia se menciona a más animales?
+Levítico 11, Génesis 7, Levítico 9, Proverbios 5
+VERY_HARD
+
+---
+¿Cuántos versículos tiene el Salmo 117?
+2, 176, 174, 4
+HARD
+
+---
+Jesús fue crucificado entre dos personas, estás dos personas ¿quiénes fueron?
+Ladrones, Rebeldes, Recaudadores, Traidores
+EASY
+
+---
+¿Quién dijo "¿Quién es Jehová, para que yo oiga su voz y deje ir a Israel? Yo no conozco a Jehová, ni tampoco dejaré ir a Israel"?
+Faraón, Moisés, Nabucodonosor, Pablo
+EASY
+
+---
+¿Quién de los siguientes NO fue discípulo de Jesús?
+Marcos, Santiago, Mateo, Bartolomé
+VERY_HARD
+
+---
+¿Quién dijo "Por voluntad de Jehová he adquirido varón"?
+Eva, Sara, Raquel, Ana
+HARD
+
+---
+¿A quién se refieren las siguientes pistas: "carne, sueño, mujer, huesos, costilla"?
+Adán, Goliat, David, José
+EASY
+
+---
+¿Quién dijo "Mi corazón se regocija en Jehová, Mi poder se exalta en Jehová; Mi boca se ensanchó sobre mis enemigos, Por cuanto me alegré en tu salvación"?
+Ana, David, Jeremías, Josué
+VERY_HARD
+
+---
+¿Cuántos años habitaron los israelitas en Egipto antes de ser libertados?
+430 años, 400 años, 410 años, 100 años
+MEDIUM
+
+---
+Moisés e Israel llegaron a un lugar llamado Elim, ¿cuántas palmeras y cuantas fuentes había en ese lugar?
+12 fuentes y 70 palmeras, 70 fuentes y 12 palmeras, 12 fuentes y 12 palmeras, 7 fuentes y 70 palmeras
+VERY_HARD
+
+---
+¿Cuánto tiempo dio Nabucodonosor a Daniel para que aprendiera la lengua y escritura de los caldeos?
+3 años, 3 meses, 1 año, 6 meses
+HARD
+
+---
+¿Cuántas vueltas dio a Jericó el ejercito de Josué antes del asalto a la ciudad?
+13 vueltas, 7 vueltas, 14 vueltas, 12 vueltas
+MEDIUM_EASY
+
+---
+Y le dieron nombre las vecinas, y lo llamaron...
+Obed, Oseas, Eliú, Jefté
+HARD
+
+---
+¿Nombre del personaje al que su asna aplastó su pie contra la pared?
+Balaam, Balaac, Baal, Jonás
+MEDIUM_EASY
+
+---
+¿En casa de quién se alojaron los espías que Josué envió a Jericó?
+Rahab, María, Salomé, Racab
+MEDIUM_EASY
+
+---
+¿Con cuántos hombres venció Gedeón a los medianitas?
+300 hombres, 350 hombres, 200 hombres, 600 hombres
+MEDIUM
+
+---
+¿Cómo se llamaban las dos nueras de Noemí?
+Rut y Orfa, Rut y Ester, Rut y Rebeca, Rut y Lea
+EASY
+
+---
+Según la Biblia, ¿cuál es la raíz de todos los males?
+El amor al dinero, La desobediencia, Un corazón perverso, La poca fe
+HARD
+
+---
+¿En qué monte murió Saúl con sus tres hijos?
+Gilboa, Hebrón, Moriah, Tabor
+VERY_HARD
+
+---
+¿En qué monte murió Moisés?
+Nebo, Sinaí, Horeb, Tabor
+VERY_HARD
+
+---
+¿Por cuántos días ayunó Moisés?
+40 días, Nunca ayunó, 7 días, 12 días
+HARD
+
+---
+¿Cómo se llamaba el esposo de Jezabel?
+Acab, Acaz, Ocozías, Urías
+MEDIUM_EASY
+
+---
+¿Qué sígnica el lugar llamado Gólgota?
+Lugar de la calavera, Lugar de tristezas, Lugar de llanto, Lugar de muerte
+HARD
+
+---
+¿Cuál es el título de Apocalipsis 21:1?
+Cielo nuevo y tierra nueva, Los mil años, La nueva Jerusalén, Las bodas del cordero
+MEDIUM_EASY
+
+---
+¿En que libro de la Biblia se narra la historia de José y sus hermanos?
+Génesis, Éxodo, Levítico, Deuteronomio
+EASY
+
+---
+¿Cuál era la nacionalidad de Rut?
+Moabita, Israelita, Edomita, Filistea
+EASY
+
+---
+¿Quién fue el padre de Abel?
+Adán, Moisés, Caín, Abraham
+EASY
+
+---
+¿Cómo se llamaba la mujer que se dice tenía “ojos delicados”?
+Lea, Rebeca, Raquel, Ester
+EASY
+
+---
+¿Cómo se llamaba el esposo de Débora?
+Lapidot, Nun, Jefté, Otoniel
+MEDIUM_EASY
+
+---
+¿Qué oficio tenía Jesús?
+Carpintero, Herrero, Guerrero, Soldado
+EASY
+
+---
+Un barco enorme construí, por mandato divino, mis vecinos se burlaron de mí, pero lloraron cuando la lluvia vino
+Noé, Caín, Jesús, Aarón
+EASY
+
+---
+Rubio era mi semblante, fui un experto cazador, por culpa de un guisado, perdí mis derechos de hijo mayor
+Esaú, Jacob, David, Saúl
+MEDIUM_EASY
+
+---
+De gran estatura fui el terror de Israel, ¿quién podría imaginar que con una honda me podrían vencer?
+Goliat, Sansón, Absalón, Faraón
+EASY
+
+---
+¿Cuál de los siguientes colores NO eran parte de las cortinas del Tabernáculo?
+Bermejo, Azul, Púrpura, Carmesí
+HARD
+
+---
+¿De qué color era la túnica de José?
+Muchos colores, Roja y amarilla, Blanca y roja, Púrpura y blanca
+EASY
+
+---
+¿Qué oficio tenía Nehemías?
+Copero, Mensajero, Consejero, Cocinero
+MEDIUM_EASY
+
+---
+¿De qué nacionalidad era Moisés?
+Hebreo, Filisteo, Egipcio, Moabita
+MEDIUM_EASY
+
+---
+¿Qué edad tenía Moisés cuando fue descubierto por la hija de Faraón?
+3 meses, 7 días, 8 días, 1 mes
+MEDIUM
+
+---
+¿Cómo se llamaba el pan que caía del cielo y alimentaba a los israelitas en el desierto?
+Maná, Manac, Francés, Bimbo
+EASY
+
+---
+¿Cómo se llamaba el esposo de María madre de Jesús?
+José, Juan, Lázaro, Abraham
+EASY
+
+---
+¿Dónde fue prendido y arrestado Jesús cuando se encontraba orando?
+Huerto de Getsemaní, Monte de los Olivos, Gólgota, En el templo
+EASY
+
+---
+¿Quién propuso a su mujer hacerse pasar por su hermana en Egipto, para preservar su vida?
+Abraham, Enoc, Moisés, Sem
+EASY
+
+---
+¿Quién fue el segundo rey de Israel?
+David, Jonatán, Saúl, Josué
+EASY
+
+---
+¿Quién condujo a los israelitas a conquistar la "Tierra Prometida"?
+Josué, Moisés, Caleb, Coré
+EASY
+
+---
+Fue desterrado a la isla de Patmos, donde escribió el libro de Apocalipsis:
+Juan, Pablo, Bernabé, Marcos
+EASY
+
+---
+¿Dónde dijo Jehová que la serpiente heriría a la mujer?
+En el calcañar, En su orgullo, En la cara, En la pierna
+EASY
+
+---
+¿Quién pasó una noche encerrado en un foso de leones?
+Daniel, Jeremías, Pedro, Pablo
+EASY
+
+---
+¿En quién se originó el pecado?
+Lucifer, Eva, Adán, Caín
+MEDIUM_EASY
+
+---
+¿A qué ciudad se refirió Jesús cuando dijo "No hay profeta sin honra, sino en su propia tierra y en su casa"?
+Nazaret, Jerusalén, Galilea, Belén
+HARD
+
+---
+¿Qué libro se encuentra entre Amós y Jonás?
+Abdías, Ninguno, Habacuc, Joel
+HARD
+
+---
+¿Cuántas tinajas de agua convirtió Jesús en vino?
+Seis, Diez, Tres, Cuatro
+HARD
+
+---
+¿Quién escribió el libro de Proverbios?
+Varios autores, David, Moisés, Salomón
+VERY_HARD
+
+---
+¿Quién fue profeta durante el reinado de Darío?
+Daniel, Zacarías, Hageo, Jeremías
+HARD
+
+---
+¿Qué significa Bet-el?
+Casa de Dios, Escalera de Dios, Dios es mi roca, Sueño de Dios
+VERY_HARD
+
+---
+¿Cuántos capítulos tiene el libro de Judas?
+Uno, Dos, Tres, Cinco
+EASY
+
+---
+¿Qué padre e hijo fueron circuncidados el mismo día?
+Abraham e Ismael, Isaac y Jacob, Abraham e Isaac, Moisés y Gersón
+VERY_HARD
+
+---
+¿Cuánto tiempo anduvo Isaías desnudo y descalzo?
+Tres años, Tres días, Tres meses, Nunca hizo eso
+VERY_HARD
+
+---
+¿En qué libro de la Biblia cuenta que el arcángel Miguel y el diablo disputaban por el cuerpo de Moisés?
+Judas, Deuteronomio, Zacarías, Apocalipsis
+HARD
+
+---
+¿A qué tribu de Israel pertenecía el rey Saúl y el apostol Pablo?,
+Benjamín, Judá, Efraín, Otra
+HARD
+
+---
+¿Cuántos de los jueces de Israel fueron mujeres?
+Una, Dos, Ninguna, Tres
+MEDIUM_EASY
+
+---
+En el N.T. aparecía una mujer llamada Lidia ¿qué vendía esta mujer?,
+Púrpura, Templos de Diana, Ungüentos, Tiendas
+MEDIUM
+
+---
+¿Cuál es el evangelio que NO registra ninguna predicción de Jesús acerca de su resurreción?
+Juan, Mateo, Marcos, Lucas
+VERY_HARD
+
+---
+¿Quién vió a unos ángeles subir y bajar por una escalera?
+Jacob, Isaac, Isaías, Jeremías
+MEDIUM_EASY
+
+---
+¿Cuál es el capítulo más largo de la Biblia?
+Salmos 119, Apocalipsis 22, Job 42, Mateo 24
+MEDIUM_EASY
+
+---
+¿Cuál de los siguientes hombres fueron hijos de Raquel?
+Benjamín y José, Esaú y Jacob, Isaac e Ismael, Rubén y Judá
+MEDIUM_EASY
+
+---
+¿Cuántas veces pasó el pueblo de Israel por aguas que se abrieron?,
+Dos veces, Una vez, Tres veces, Siete veces
+MEDIUM
+
+---
+¿Qué parábola relató Jesús para responder a la pregunta "¿Quién es mi prójimo?"?
+El buen samaritano, El hijo pródigo, La oveja perdida, El fariseo y el publicano
+MEDIUM
+
+---
+¿Quién dijo "No temáis; estad firmes, y ved la salvación que Jehová hará hoy con vosotros"?
+Moisés, Josué, Gedeón, David
+VERY_HARD
+
+---
+¿Cómo se llamaba la esposa de Moisés?
+Séfora, Sara, Rebeca, Lea
+EASY
+
+---
+¿Quién cerró la puerta del arca que construyó Noé?
+Dios, Noé, Cam, Jafet
+EASY
+
+---
+¿Dónde estaba situado el Monte Moriah?
+Jerusalén, Jericó, Sinaí, Cerca de Ur
+VERY_HARD
+
+---
+¿Quién escribió el libro de Lamentaciones?
+Jeremías, Isaías, Salomón, David
+MEDIUM_EASY
+
+---
+¿A qué rey se le añadieron 15 años de vida?
+Ezequías, Josías, Ocozías, Ezequiel
+MEDIUM
+
+---
+¿A quién pertenecía el manto al que David cortó una orilla?
+Saúl, Samuel, Jonatán, Urías
+MEDIUM
+
+---
+¿Quién predicó en el día de Pentescostés?
+Pedro, Jesús, Pablo, Felipe
+MEDIUM_EASY
+
+---
+¿Quién pidió a Dios una señal dos veces?
+Gedeón, Daniel, Otro, Abraham
+HARD
+
+---
+¿Cómo se llamaba el padre de Samuel?
+Elcana, Jared, Jeroham, Finees
+VERY_HARD
+
+---
+¿Cuántas personas (además de Jesús) estuvieron presentes en la Transfiguración?
+Tres, Dos, Cuatro, Uno
+VERY_HARD
+
+---
+¿En qué libro se encuentra la siguiente frase "y me buscaréis y me hallaréis, porque me buscaréis de todo vuestro corazón"?
+Jeremías, Isaías, Salmos, Deuteronomio
+VERY_HARD
+
+---
+¿Cuál es la primera mentira que se registra en la Biblia?
+No moriréis, No te conozco, Soy tu hijo, No sé
+MEDIUM_EASY
+
+---
+¿Por qué murió Uza?
+Por tocar el arca, Por blasfemar, Por robar del anatema, Por adulterio
+HARD
+
+---
+¿Quién fue llamado el "Tisbita"?
+Elías, Simón, Eliseo, Jeremías
+VERY_HARD
+
+---
+¿Cuántos capítulos tiene el libro de Rut?
+Cuatro, Seis, Tres, Cinco
+HARD
+
+---
+¿Cuál es el nombre del río en el cual fue bautizado Jesús?
+Jordán, Nilo, Éufrates, Tigris
+EASY
+
+---
+¿En qué libro de la Biblia el pueblo de Israel adora a un becerro de oro hecho por Aarón?
+Éxodo, Levítico, Números, Deuteronomio
+EASY
+
+---
+¿Cuál de las siguientes personas NO conocieron la muerte?
+Enoc y Elías, Elías y Moisés , Sansón y Moisés, Matusalén y Samuel
+EASY
+
+---
+¿Qué instrumento musical tocaba David delante de Saúl?
+Arpa, Címbalo, Cítara, Trompeta
+EASY
+
+---
+¿Cuántos hijos tuvo Isaac?
+Dos, Doce, Uno, Ninguno
+EASY
+
+---
+¿En qué libro aparece la cita: "Dios es nuestro amparo y fortaleza, nuestro pronto auxilio en las tribulaciones"?
+Salmos, Proverbios, Cantares, Eclesiastés
+MEDIUM
+
+---
+Según el evangelio de Lucas ¿qué tenía Jesús por costumbre los sábados?
+Ir a la Sinangoga, Descansar, Sanar enfermos, Predicar
+MEDIUM
+
+---
+¿Cuántos hijos e hijas tuvo Job?
+Veinte, Siete, Doce, Diez
+VERY_HARD
+
+---
+Bienaventurados los pobres en espíritu, porque...
+De ellos es el reino de los cielos, Ellos verán a Dios, Ellos serán saciados, Ellos serán consolados
+MEDIUM
+
+---
+¿Con qué se comparará la ley de Dios?
+Con un espejo, Con una espada, Con una fruta, Con el agua
+MEDIUM
+
+---
+¿Cuál es nombre del nieto de Adán, hijo de Set?
+Enós, Enoc, Lamec, Matusael
+HARD
+
+---
+Según el evangelio de Marcos, Jesús sanó a la suegra de uno de sus discipulos ¿de quién?
+Simón, Juan, Jacobo, Andrés
+HARD
+
+---
+¿A dónde se dirigían los discipulos cuando Jesús se les apareció después de resucitar?
+Galilea, Betania, Jersusalén, Samaria
+HARD
+
+---
+Antes de ser rey David era...
+Pastor, Agricultor, Guerrero, Futbolista
+EASY
+
+---
+¿A quién ofreció Pilato liberar en lugar de Jesús?
+Barrabás, Dos ladrones, Juan el Bautista, Pedro
+EASY
+
+---
+¿Cuántas piedras lisas cogió David del arroyo en su enfrentamiento con Goliat?
+Cinco, Una, Tres, Siete
+MEDIUM_EASY
+
+---
+¿Quién fue Eliseo?
+Un profeta, Un arquitecto, Un apostol, Un fariseo
+EASY
+
+---
+Jesús dijo "cuando veáis en el lugar santo la abominación desoladora de que habló el profeta Daniel entonces los que estén en Judea..."
+Huyan a los montes, Huyan a los campos, Clamen al Padre, Arrepiéntanse
+HARD
+
+---
+"El hombre que tiene amigos ha de mostrarse amigo; y amigo hay más unido que..."
+Un hermano, Una esposa, Un rey, Un padre
+MEDIUM_EASY
+
+---
+¿Quién dijo "Nunca os conocí"?
+Jesús, Juan el Bautista, Pedro, Pablo
+MEDIUM
+
+---
+¿Qué tenía Nabot que fue codiciado por un rey?
+Una viña, Una casa, Una mujer, Una hija
+MEDIUM
+
+---
+¿Con qué otro nombre se le conoce al discipulo Leví de Alfeo?
+Mateo, Marcos, Juan, Lucas
+HARD
+
+---
+¿En qué día de la creación separó Dios la luz de las tinieblas?
+Primero, Segundo, Tercero, Cuarto
+EASY
+
+---
+¿Qué recibirán aquellos quienes sean fieles hasta la muerte?
+Corona de vida, Vida eterna, El fruto de la vida, Moradas
+HARD
+
+---
+¿De qué ciudad escapó Pablo en un cesto?
+Damasco, Éfeso, Corintios, Filipo
+VERY_HARD
+
+---
+¿En qué ciudades puso Jeroboam los becerros de oro?
+Bet-el y Dan, Bet-el y Hai, Siquem y Bet-el, Hiram y Dan
+VERY_HARD
+
+---
+¿Cuál fue el nombre de la esposa de Herodes que se había casado con su hermano Felipe?
+Herodías, Adalía, Zila, Salomé
+VERY_HARD
+
+---
+¿Quién reinó por seis años en Israel y empezó su reinado matando a todos sus nietos menos a uno?
+Atalía, Josabar, Jedida, Amalía
+VERY_HARD
+
+---
+¿Cómo se llamaba el sacerdote encargado del cuidado del pequeño Samuel?
+Elí, Isaí, Elcana, Ananías
+MEDIUM_EASY
+
+---
+¿Gracias a qué emperador persa pudo Nehemías reconstruir los muros de la ciudad de Jerusalén?
+Artajerjes, Ciro, Belsasar, Nabucodonosor
+HARD
+
+---
+¿Quién fue puesto en una horca que él mismo había preparado?
+Amán, Mardoqueo, Anías, Asuero
+MEDIUM
+
+---
+¿Quién dijo: "¿De Nazaret puede salir algo de bueno?"?
+Natanael, Felipe, Andrés, Herodes
+MEDIUM
+
+---
+¿Qué nombre puso Jacob al lugar donde soñó con una escalera que ascendía al cielo?
+Bet-el, Gilgal, Eben-ezer, Luz
+HARD
+
+---
+¿Qué profesión ejercía Lucas?
+Médico, Pescador, Pastor, Recaudador de impuestos
+MEDIUM_EASY
+
+---
+¿Quién fue juez en Israel durante 20 años en tiempos de los filisteos?
+Sansón, Jefté, Gedeón, Otro
+MEDIUM
+
+---
+¿Cuántos días pasó Jesús en el desierto después de ser bautizado?
+40 días, 30 días, 7 días, 120 días
+EASY
+
+---
+¿Cuántas veces fue tentado Jesús en el desierto?
+3 veces, 1 vez, 2 veces, 4 veces
+EASY
+
+---
+¿Cuál fue la primera plaga de Egipto?
+Las aguas se tornan en sangre, Las ranas, Los piojos, Las serpientes
+EASY
+
+---
+¿Quién dijo "Yo sé que mi Redentor vive"?
+Job, David, Salomón, Isaías
+MEDIUM
+
+---
+¿Cómo se llamaba la mujer de Abraham?
+Sarai, Raquel, Milca, Séfora
+EASY
+
+---
+¿En que día de la creación Dios hizo los árboles y las plantas?
+Tercero, Primero, Cuarto, Segundo
+EASY
+
+---
+¿Qué relación tenía Mardoqueo con Ester?
+Primo, Tío, Padre, Hermano
+MEDIUM_EASY
+
+---
+¿A quién dijo Jesús: "Ve al mar, y echa el anzuelo, y el primer pez que saques, tómalo, y al abrirle la boca, hallarás un estatero"?
+Pedro, Juan, Andrés, Tomás
+HARD
+
+---
+¿De qué tipo de madera estaban hechos los querubines del lugar Santísimo del templo de Salomón?
+Olivo, Acacia, Roble, Cedro
+VERY_HARD
+
+---
+¿Quién es el "Padre de la Fe"?
+Abraham, Jesús, Moisés, Pedro
+MEDIUM_EASY
+
+---
+¿Quién fue el mejor amigo de David?
+Jonatán, Saúl, Samuel, Joab
+EASY
+
+---
+¿Con quién se casó Booz?
+Rut, Abigail, Ester, Elisabet
+MEDIUM_EASY
+
+---
+¿Quién escribió el libro de Ezequías?
+No existe, Joel, Ezequías, Isaías
+MEDIUM_EASY
+
+---
+¿A quién se refiere Isaías con "Voz que clama en el desierto: Preparad camino a Jehová"?
+Juan el Bautista, Elías, Jesús, David
+HARD
+
+---
+¿Quién dijo "Señor, si hubieses estado aquí, mi hermano no habría muerto"?
+Marta, María, La viuda de Serepta, Lázaro
+MEDIUM_EASY
+
+---
+¿Dónde vivía Tabita la discípula?
+Jope, Damasco, Tarso, Jerusalén
+VERY_HARD
+
+---
+¿En qué ciudad ascendió Jesús a los cielos después de resucitar y bendecir a sus discipulos?
+Betania, Galilea, Capernaúm, Nazaret
+VERY_HARD
+
+---
+¿Quién dirigió la reconstrucción del muro de Jerusalén?
+Nehemías, Esdras, Ciro, Artajerjes
+MEDIUM_EASY
+
+---
+¿Quién mató a seiscientos filisteos con una aguijada de buey?
+Samgar, Sansón, Otoniel, Barac
+MEDIUM
+
+---
+¿Quién iba a maldecir a Israel, pero tuvo que bendecirlos?
+Balaam, Balac, Jozabad, Semaías
+MEDIUM_EASY
+
+---
+¿Quién se convirtió en el primer rey de las 10 tribus que se separaron?
+Jeroboam, Roboam, Salomón, Zimri
+MEDIUM
+
+---
+¿Quién aconsejó a David que no matara a su necio marido Nabal?
+Abigail, Betsabé, Mical, Ana
+MEDIUM
+
+---
+¿Quién fue reprendido por Pablo por negarse a comer con los gentiles?
+Pedro, Bernabé, Lucas, Aquila
+MEDIUM
+
+---
+¿En qué lugar Elías tuvo un enfrentamiento con los profetas de Baal?
+Monte Carmelo, Monte Sion, Monte Sinaí, Monte Ararat
+MEDIUM
+
+---
+¿En qué lugar los creyentes fueron llamados “cristianos” por primera vez?
+Antioquía, Corintos, Jerusalén, Éfeso
+MEDIUM
+
+---
+¿A qué lugar se dirigía Pablo cuando fue cegado en el camino?
+Damasco, Tarsis, Jerusalén, Samaria
+MEDIUM
+
+---
+¿Cuál es el nombre del río en el cual estaba Ezequiel con los exiliados cuando recibió una visión de Dios?
+Quebar, Jordán, Gihón, Éufrates
+HARD
+
+---
+¿En qué libro se encuentra una descripción de la armadura de Dios?
+Efesios 6, 1 Corintios 6, Gálatas 3, Colosenses 3
+HARD
+
+---
+¿Quién fue llamado el incredulo?
+Tomás, Felipe, Juan, Simón
+MEDIUM
+
+---
+¿Quién fue llamado rama fructífera?
+José, David, Jesús, Abraham
+VERY_HARD
+
+---
+¿Quién es el dulce cantor de Israel?
+David, Daniel, Salomón, Moisés
+MEDIUM_EASY
+
+---
+¿Cuantas estrellas se inclinaron ante José en su sueño?
+11, 14, 12, 13
+HARD
+
+---
+¿Cuántos años tardó Salomón para construir el templo?
+7 años, 12 años, 20 años, 40 años
+VERY_HARD
+
+---
+¿Por quién se dió 20 piezas de plata?
+José, Jesús, Rebeca, Ester
+MEDIUM
+
+---
+¿Quién fue el gobernador romano que sentenció a muerte a Cristo?
+Pilato, Nerón, Julio Cesar, Herodes
+MEDIUM_EASY
+
+---
+¿Cuántas personas estuvieron en el arca de Noé?
+Ocho, Siete, Seis, Nueve
+MEDIUM_EASY
+
+---
+¿Qué significa epístola?
+Carta, Evangelio, Buenas nuevas, Salvación
+MEDIUM_EASY
+
+---
+¿Cuál era la fiesta del A.T. que recordaba cuando Dios salvó a los primogénitos de Israel la noche que salieron de Egipto?
+La Pascua, La fiesta de los panes, Fiesta de la cosecha, La fiesta de Purim
+MEDIUM_EASY
+
+---
+¿Cuáles de éstos animales hablaron?
+La serpiente y el asno, La serpiente y el cordero, El asno y el dragón, El dragón y el cordero
+MEDIUM_EASY
+
+---
+¿Con cuál mujer cometió adulterio David?
+Betsabé, Elisabet, Mical, Abigail
+MEDIUM_EASY
+
+---
+¿Cuál era la tribu de Israel encargada del sacerdocio y por tanto apartada para Jehová?
+Leví, Judá, Benjamín, Zabulón
+EASY
+
+---
+En la armadura de Dios que describe Pablo ¿qué representa el yelmo?
+Salvación, Espíritu, Verdad, Fe
+HARD
+
+---
+¿Cuántos hijos varones tuvo Jacob?
+Doce, Trece, Once, Diéz
+MEDIUM_EASY
+
+---
+¿Con quién comparaban a Juan el Bautista?
+Elías, Eliseo, Samuel, Isaías
+MEDIUM
+
+---
+¿Qué edad tenía Abraham cuando nació Isaac?
+100 años, 86 años, 102 años, 110 años
+MEDIUM
+
+---
+¿Cuál es el libro que está entre Oseas y Amós?
+Joel, Abdías, Jonás, Daniel
+HARD
+
+---
+¿A qué tierra Abraham llevó a Isaac para sacrificarlo?
+Moriah, Ur, Mambre, Beerseba
+VERY_HARD
+
+---
+¿En cuál evangelio NO se narra el encuentro de Jesús con el hombre rico?
+Juan, Mateo, Marcos, Lucas
+VERY_HARD
+
+---
+¿A qué rey se le secó la mano cuando intentó prender a un varón de Dios?
+Jeroboam, Roboam, Uzías, Josafat
+HARD
+
+---
+¿Quién es nuestro abogado en el cielo?
+Jesús, Pablo, Abraham, El Papa
+EASY
+
+---
+¿Cuál de los siguientes libros fue escrito por varios autores?
+Salmos, Génesis, Éxodo, Lucas
+MEDIUM_EASY
+
+---
+¿Cuánto tiempo pasó desde que dejó de llover en el diluvio hasta que la tierra se secó?
+150 días, 40 días, 120 días, 7 días
+HARD
+
+---
+¿Cuántas mujeres entraron en el Arca de Noé?
+Cuatro, Una, Dos, Tres
+MEDIUM
+
+---
+¿Qué libro de la Biblia se encuentra entre Ester y Job?
+Ninguno, Salmos, Proverbios, Nehemías
+MEDIUM
+
+---
+¿Cómo se llamaba el siervo del sumo sacerdote, al cual Pedro le cortó una oreja?
+Malco, Jairo, Eliud, Simón
+VERY_HARD
+
+---
+¿Cuál fue el número de concubinas de Salomón?
+300, 700, 1000, 500
+VERY_HARD
+
+---
+¿Qué significa Emanuel?
+Dios con nosotros, Dios nuestro, Bendito de Dios, Principe de paz
+HARD
+
+---
+¿Cuál es el ultimo libro del Antiguo Testamento?
+Malaquías, Zacarías, Oseas, Habacuc
+MEDIUM_EASY
+
+---
+¿En que capítulo del libro de Isaías se describe detalladamente al Mesías?
+53, 23, 55, 56
+MEDIUM
+
+---
+¿Quién fue el padre de Mahersalal–hasbaz?
+Isaías, Nabucodonosor, Nehemías, Artajerjes
+VERY_HARD
+
+---
+¿Cuáles eran las dimensiones (en codos) del arca construida por Noé?
+300 x 50 x 30, 300 x 30 x 20, 200 x 50 x 30, 200 x 45 x 30
+VERY_HARD
+
+---
+¿De qué material fue hecha el Arca del Pacto para el Tabernáculo en los tiempos de Moisés?
+Acacia, Oro, Olivo, Cedro
+VERY_HARD
+
+---
+¿Quién construyó el Arca del Pacto para el Tabernáculo en los tiempos de Moisés?
+Bezaleel, Aholiab, Aarón, Quelal
+VERY_HARD
+
+---
+¿Qué es "Azazel"?
+Una cabra, Un dios pagano, Una ciudad, Un monte
+VERY_HARD
+
+---
+¿Quién dijo "¿Soy yo perro, para que vengas a mí con palos?"?
+Goliat, Acab, Absalón, Roboam
+HARD
+
+---
+¿Quién dijo "¿quién podrá gobernar este tu pueblo tan grande?"?
+Salomón, Josué, Moisés, Saúl
+HARD
+
+---
+¿Quién dijo "He aquí el fuego y la leña; mas ¿dónde está el cordero para el holocausto?"?
+Isaac, Abraham, Jacob, Cam
+MEDIUM
+
+---
+¿Quién dijo "Ordena que en tu reino se sienten estos dos hijos míos, el uno a tu derecha, y el otro a tu izquierda"?
+La mujer de Zebedeo, La mujer de Felipe, La mujer de Zaqueo, La mujer de Santiago
+VERY_HARD
+
+---
+¿Quién dijo "Si perezco, que perezca"?
+Ester, Rut, Sara, Ana
+MEDIUM_EASY
+
+---
+¿En qué capítulo se encuentra "Satanás atado por mil años"?
+Apocalipsis 20, Apocalipsis 21, Apocalipsis 19, Apocalipsis 22
+HARD
+
+---
+¿En qué capítulo se encuentra "El Sermón del monte"?
+Mateo 5, Mateo 6, Mateo 7, Mateo 10
+HARD
+
+---
+¿Cuál profeta se casa con una prostituta?
+Oseas, Joel, Abdías, Amós
+HARD
+
+---
+¿Quién apareció con Jesús en la Transfiguración?
+Moisés y Elías, Enoc y Elías, Moisés e Isaías, Eliseo y Elías
+MEDIUM
+
+---
+¿En que libro del A.T. se encuentran las palabras “Dios mío, Dios mío, ¿por qué me has desamparado?”?
+Salmos, Jeremías, 1 Reyes, Eclesiastés
+HARD
+
+---
+¿A qué edad murió Noé?
+950 años, 930 años, 955 años, 940 años
+HARD
+
+---
+¿A qué edad murió Moisés?
+120 años, 110 años, 130 años, 100 años
+HARD
+
+---
+¿Cuál era la estatura de Goliat?
+6 codos y un palmo, 6 codos y 1/2 palmo, 6 codos y 2 palmos, 6 codos y 3 palmos
+MEDIUM
+
+---
+El profeta me mando 7 veces a bañar, tenía que obedecerle, para mi lepra poder sanar
+Naamán, Felipe, Eunuco, Eliseo
+MEDIUM
+
+---
