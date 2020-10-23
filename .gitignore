@@ -9,6 +9,7 @@
 
 # dependencies
 /node_modules
+/biblionaire-win32-x64
 
 # profiling files
 chrome-profiler-events*.json
