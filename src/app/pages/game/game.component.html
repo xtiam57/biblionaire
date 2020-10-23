@@ -44,6 +44,7 @@
           <div class="game-question-wrapper mb-3">
             <p>
               {{ gameService.getCurrentQuestion().question }}
+
             </p>
 
             <button *ngIf="gameService.isFinalAnswerSelected && !gameService.isAnswerRevealed && !gameService.hasQuit"
@@ -89,6 +90,7 @@
                                   'hidden': gameService.isHidden(i) }">
                   <span>{{ gameService.getOptionLetter(i) }}:</span>
                   {{ option }}
+                  <small *ngIf="gameService.isAnswerRevealed && gameService.isBlinking(i) && gameService.getCurrentQuestion().reference">(Ref.: {{ gameService.getCurrentQuestion().reference }})</small>
                 </div>
 
                 <button *ngIf="gameService.isOptionSelected(i) && gameService.isOptionSelected() && !gameService.isFinalAnswerSelected && !gameService.hasQuit"

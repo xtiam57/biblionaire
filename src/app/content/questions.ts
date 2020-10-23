@@ -22,7 +22,7 @@ export const questions: IQuestion[] = [
       'Josué',
       'Pablo'
     ],
-    reference: ''
+    reference: 'Génesis 46:30'
   },
   {
     difficulty: Difficulty.VERY_HARD,
@@ -55,7 +55,7 @@ export const questions: IQuestion[] = [
       'Pavoreal',
       'Leviatán'
     ],
-    reference: ''
+    reference: 'Job 39:13-17'
   },
   {
     difficulty: Difficulty.EASY,
@@ -66,7 +66,7 @@ export const questions: IQuestion[] = [
       'Pedro',
       'Caleb'
     ],
-    reference: ''
+    reference: 'Números 12:3'
   },
   {
     difficulty: Difficulty.VERY_HARD,
@@ -88,7 +88,7 @@ export const questions: IQuestion[] = [
       'Juan el Bautista',
       'Roboam'
     ],
-    reference: ''
+    reference: '2 Samuel 14:25-26'
   },
   {
     difficulty: Difficulty.HARD,
@@ -99,7 +99,7 @@ export const questions: IQuestion[] = [
       'David',
       'Nehemías'
     ],
-    reference: ''
+    reference: 'Levítico 10'
   },
   {
     difficulty: Difficulty.MEDIUM,
@@ -110,7 +110,7 @@ export const questions: IQuestion[] = [
       'Caleb',
       'Jozías'
     ],
-    reference: ''
+    reference: 'Números 13:16'
   },
   {
     difficulty: Difficulty.MEDIUM,
@@ -121,7 +121,7 @@ export const questions: IQuestion[] = [
       'Pedro',
       'Moisés'
     ],
-    reference: ''
+    reference: 'Hechos 20:7-11'
   },
   {
     difficulty: Difficulty.MEDIUM,
@@ -132,7 +132,7 @@ export const questions: IQuestion[] = [
       'Mujer adultera',
       'María Magdalena'
     ],
-    reference: ''
+    reference: 'Juan 4:11'
   },
   {
     difficulty: Difficulty.VERY_HARD,
@@ -165,7 +165,7 @@ export const questions: IQuestion[] = [
       'Recaudadores',
       'Traidores'
     ],
-    reference: ''
+    reference: 'Marcos 15:27'
   },
   {
     difficulty: Difficulty.EASY,
@@ -176,7 +176,7 @@ export const questions: IQuestion[] = [
       'Nabucodonosor',
       'Pablo'
     ],
-    reference: ''
+    reference: 'Éxodo 5:2'
   },
   {
     difficulty: Difficulty.VERY_HARD,
@@ -187,7 +187,7 @@ export const questions: IQuestion[] = [
       'Mateo',
       'Bartolomé'
     ],
-    reference: ''
+    reference: 'Mateo 10:2-4'
   },
   {
     difficulty: Difficulty.HARD,
@@ -198,7 +198,7 @@ export const questions: IQuestion[] = [
       'Raquel',
       'Ana'
     ],
-    reference: ''
+    reference: 'Génesis 4:1'
   },
   {
     difficulty: Difficulty.EASY,
@@ -209,7 +209,7 @@ export const questions: IQuestion[] = [
       'David',
       'José'
     ],
-    reference: ''
+    reference: 'Génesis 2'
   },
   {
     difficulty: Difficulty.VERY_HARD,
@@ -220,7 +220,7 @@ export const questions: IQuestion[] = [
       'Jeremías',
       'Josué'
     ],
-    reference: ''
+    reference: '1 Samuel 2:1'
   },
   {
     difficulty: Difficulty.MEDIUM,
@@ -231,7 +231,7 @@ export const questions: IQuestion[] = [
       '410 años',
       '100 años'
     ],
-    reference: ''
+    reference: 'Éxodo 12:40'
   },
   {
     difficulty: Difficulty.VERY_HARD,
@@ -242,7 +242,7 @@ export const questions: IQuestion[] = [
       '12 fuentes y 12 palmeras',
       '7 fuentes y 70 palmeras'
     ],
-    reference: ''
+    reference: 'Éxodo 15:27'
   },
   {
     difficulty: Difficulty.HARD,
@@ -253,7 +253,7 @@ export const questions: IQuestion[] = [
       '1 año',
       '6 meses'
     ],
-    reference: ''
+    reference: 'Daniel 1:5'
   },
   {
     difficulty: Difficulty.MEDIUM_EASY,
@@ -264,7 +264,7 @@ export const questions: IQuestion[] = [
       '14 vueltas',
       '12 vueltas'
     ],
-    reference: ''
+    reference: 'Josué 6:3-4'
   },
   {
     difficulty: Difficulty.HARD,
@@ -275,7 +275,7 @@ export const questions: IQuestion[] = [
       'Eliú',
       'Jefté'
     ],
-    reference: ''
+    reference: 'Rut 4:17'
   },
   {
     difficulty: Difficulty.MEDIUM_EASY,
@@ -286,7 +286,7 @@ export const questions: IQuestion[] = [
       'Baal',
       'Jonás'
     ],
-    reference: ''
+    reference: 'Números 22:25'
   },
   {
     difficulty: Difficulty.MEDIUM_EASY,
@@ -297,7 +297,7 @@ export const questions: IQuestion[] = [
       'Salomé',
       'Racab'
     ],
-    reference: ''
+    reference: 'Josué 2:1'
   },
   {
     difficulty: Difficulty.MEDIUM,
