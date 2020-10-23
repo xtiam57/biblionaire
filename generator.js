@@ -52,9 +52,7 @@ return fs.readFile("./PREGUNTAS.txt", "utf8", (err, data) => {
 
   let doc = JSON.stringify(questions, null, 2);
 
-  doc = `import { Difficulty } from '../types/Difficulty';\n
-         import IQuestion from '../types/IQuestion';\n\n
-         export const questions: IQuestion[] = ${doc};\n`
+  doc = `import { Difficulty } from '../types/Difficulty';\nimport IQuestion from '../types/IQuestion';\n\nexport const questions: IQuestion[] = ${doc};\n`
     .replace(/"@|@"|/gi, "")
     .replace(/"difficulty"/gi, "difficulty")
     .replace(/"question"/gi, "question")
