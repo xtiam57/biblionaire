@@ -19,7 +19,7 @@ function createWindow() {
 
   // and load the index.html of the app.
   // mainWindow.loadFile('src/index.html');
-  mainWindow.loadURL(`file://${__dirname}/dist/biblionaire/index.html`);
+  mainWindow.loadURL(`file://${__dirname}/dist/index.html`);
 
   // Open the DevTools.
   // mainWindow.webContents.openDevTools();

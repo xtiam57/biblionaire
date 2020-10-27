@@ -308,7 +308,7 @@ export const questions: IQuestion[] = [
       '200 hombres',
       '600 hombres'
     ],
-    reference: ''
+    reference: 'Jueces 7'
   },
   {
     difficulty: Difficulty.EASY,
@@ -319,7 +319,7 @@ export const questions: IQuestion[] = [
       'Rut y Rebeca',
       'Rut y Lea'
     ],
-    reference: ''
+    reference: 'Rut 1:4'
   },
   {
     difficulty: Difficulty.HARD,
@@ -330,7 +330,7 @@ export const questions: IQuestion[] = [
       'Un corazón perverso',
       'La poca fe'
     ],
-    reference: ''
+    reference: '1 Timoteo 6:10'
   },
   {
     difficulty: Difficulty.VERY_HARD,
@@ -341,7 +341,7 @@ export const questions: IQuestion[] = [
       'Moriah',
       'Tabor'
     ],
-    reference: ''
+    reference: '1 Samuel 31'
   },
   {
     difficulty: Difficulty.VERY_HARD,
@@ -352,7 +352,7 @@ export const questions: IQuestion[] = [
       'Horeb',
       'Tabor'
     ],
-    reference: ''
+    reference: 'Deuteronomio 34'
   },
   {
     difficulty: Difficulty.HARD,
@@ -363,7 +363,7 @@ export const questions: IQuestion[] = [
       '7 días',
       '12 días'
     ],
-    reference: ''
+    reference: 'Éxodo 34:28'
   },
   {
     difficulty: Difficulty.MEDIUM_EASY,
@@ -374,7 +374,7 @@ export const questions: IQuestion[] = [
       'Ocozías',
       'Urías'
     ],
-    reference: ''
+    reference: '1 Reyes 16:29-31'
   },
   {
     difficulty: Difficulty.HARD,
@@ -385,7 +385,7 @@ export const questions: IQuestion[] = [
       'Lugar de llanto',
       'Lugar de muerte'
     ],
-    reference: ''
+    reference: 'Marcos 15:22'
   },
   {
     difficulty: Difficulty.MEDIUM_EASY,
@@ -407,7 +407,7 @@ export const questions: IQuestion[] = [
       'Levítico',
       'Deuteronomio'
     ],
-    reference: ''
+    reference: 'Génesis 37-50'
   },
   {
     difficulty: Difficulty.EASY,
@@ -418,7 +418,7 @@ export const questions: IQuestion[] = [
       'Edomita',
       'Filistea'
     ],
-    reference: ''
+    reference: 'Rut 1:4'
   },
   {
     difficulty: Difficulty.EASY,
@@ -429,7 +429,7 @@ export const questions: IQuestion[] = [
       'Caín',
       'Abraham'
     ],
-    reference: ''
+    reference: 'Génesis 4:1-2'
   },
   {
     difficulty: Difficulty.EASY,
@@ -440,7 +440,7 @@ export const questions: IQuestion[] = [
       'Raquel',
       'Ester'
     ],
-    reference: ''
+    reference: 'Génesis 29:17'
   },
   {
     difficulty: Difficulty.MEDIUM_EASY,
@@ -451,7 +451,7 @@ export const questions: IQuestion[] = [
       'Jefté',
       'Otoniel'
     ],
-    reference: ''
+    reference: 'Jueces 4:4'
   },
   {
     difficulty: Difficulty.EASY,
@@ -462,7 +462,7 @@ export const questions: IQuestion[] = [
       'Guerrero',
       'Soldado'
     ],
-    reference: ''
+    reference: 'Mateo 13:55 y Marcos 6:3'
   },
   {
     difficulty: Difficulty.EASY,
@@ -473,7 +473,7 @@ export const questions: IQuestion[] = [
       'Jesús',
       'Aarón'
     ],
-    reference: ''
+    reference: 'Génesis 6'
   },
   {
     difficulty: Difficulty.MEDIUM_EASY,
@@ -484,7 +484,7 @@ export const questions: IQuestion[] = [
       'David',
       'Saúl'
     ],
-    reference: ''
+    reference: 'Génesis 25'
   },
   {
     difficulty: Difficulty.EASY,
@@ -495,7 +495,7 @@ export const questions: IQuestion[] = [
       'Absalón',
       'Faraón'
     ],
-    reference: ''
+    reference: '1 Samuel 17'
   },
   {
     difficulty: Difficulty.HARD,
@@ -506,7 +506,7 @@ export const questions: IQuestion[] = [
       'Púrpura',
       'Carmesí'
     ],
-    reference: ''
+    reference: 'Éxodo 26:1'
   },
   {
     difficulty: Difficulty.EASY,
@@ -517,7 +517,7 @@ export const questions: IQuestion[] = [
       'Blanca y roja',
       'Púrpura y blanca'
     ],
-    reference: ''
+    reference: 'Génesis 37:3'
   },
   {
     difficulty: Difficulty.MEDIUM_EASY,
@@ -528,7 +528,7 @@ export const questions: IQuestion[] = [
       'Consejero',
       'Cocinero'
     ],
-    reference: ''
+    reference: 'Nehemías 1:11'
   },
   {
     difficulty: Difficulty.MEDIUM_EASY,
@@ -550,7 +550,7 @@ export const questions: IQuestion[] = [
       '8 días',
       '1 mes'
     ],
-    reference: ''
+    reference: 'Éxodo 2'
   },
   {
     difficulty: Difficulty.EASY,
@@ -561,7 +561,7 @@ export const questions: IQuestion[] = [
       'Francés',
       'Bimbo'
     ],
-    reference: ''
+    reference: 'Éxodo 16'
   },
   {
     difficulty: Difficulty.EASY,
@@ -572,7 +572,7 @@ export const questions: IQuestion[] = [
       'Lázaro',
       'Abraham'
     ],
-    reference: ''
+    reference: 'Mateo 1:16'
   },
   {
     difficulty: Difficulty.EASY,
@@ -583,7 +583,7 @@ export const questions: IQuestion[] = [
       'Gólgota',
       'En el templo'
     ],
-    reference: ''
+    reference: 'Mateo 26, Marcos 14, Lucas 22'
   },
   {
     difficulty: Difficulty.EASY,
@@ -594,7 +594,7 @@ export const questions: IQuestion[] = [
       'Moisés',
       'Sem'
     ],
-    reference: ''
+    reference: 'Génesis 12:10-13'
   },
   {
     difficulty: Difficulty.EASY,
@@ -627,7 +627,7 @@ export const questions: IQuestion[] = [
       'Bernabé',
       'Marcos'
     ],
-    reference: ''
+    reference: 'Apocalipsis 1:9'
   },
   {
     difficulty: Difficulty.EASY,
@@ -638,7 +638,7 @@ export const questions: IQuestion[] = [
       'En la cara',
       'En la pierna'
     ],
-    reference: ''
+    reference: 'Génesis 3:15'
   },
   {
     difficulty: Difficulty.EASY,
@@ -649,7 +649,7 @@ export const questions: IQuestion[] = [
       'Pedro',
       'Pablo'
     ],
-    reference: ''
+    reference: 'Daniel 6'
   },
   {
     difficulty: Difficulty.MEDIUM_EASY,
@@ -660,7 +660,7 @@ export const questions: IQuestion[] = [
       'Adán',
       'Caín'
     ],
-    reference: ''
+    reference: 'Isaías 14'
   },
   {
     difficulty: Difficulty.HARD,
@@ -671,7 +671,7 @@ export const questions: IQuestion[] = [
       'Galilea',
       'Belén'
     ],
-    reference: ''
+    reference: 'Mateo 13:53-58'
   },
   {
     difficulty: Difficulty.HARD,
@@ -693,7 +693,7 @@ export const questions: IQuestion[] = [
       'Tres',
       'Cuatro'
     ],
-    reference: ''
+    reference: 'Juan 2:6'
   },
   {
     difficulty: Difficulty.VERY_HARD,
@@ -726,7 +726,7 @@ export const questions: IQuestion[] = [
       'Dios es mi roca',
       'Sueño de Dios'
     ],
-    reference: ''
+    reference: 'Génesis 12:8'
   },
   {
     difficulty: Difficulty.EASY,
@@ -748,7 +748,7 @@ export const questions: IQuestion[] = [
       'Abraham e Isaac',
       'Moisés y Gersón'
     ],
-    reference: ''
+    reference: 'Génesis 17:26'
   },
   {
     difficulty: Difficulty.VERY_HARD,
@@ -759,7 +759,7 @@ export const questions: IQuestion[] = [
       'Tres meses',
       'Nunca hizo eso'
     ],
-    reference: ''
+    reference: 'Isaías 20:3'
   },
   {
     difficulty: Difficulty.HARD,
@@ -770,7 +770,7 @@ export const questions: IQuestion[] = [
       'Zacarías',
       'Apocalipsis'
     ],
-    reference: ''
+    reference: 'Judas 1:9'
   },
   {
     difficulty: Difficulty.HARD,
@@ -781,7 +781,7 @@ export const questions: IQuestion[] = [
       'Efraín',
       'Otra'
     ],
-    reference: ''
+    reference: '1 Samuel 9:1-2'
   },
   {
     difficulty: Difficulty.MEDIUM_EASY,
@@ -792,7 +792,7 @@ export const questions: IQuestion[] = [
       'Ninguna',
       'Tres'
     ],
-    reference: ''
+    reference: 'Jueces 4'
   },
   {
     difficulty: Difficulty.MEDIUM,
@@ -803,7 +803,7 @@ export const questions: IQuestion[] = [
       'Ungüentos',
       'Tiendas'
     ],
-    reference: ''
+    reference: 'Hechos 16:14'
   },
   {
     difficulty: Difficulty.VERY_HARD,
@@ -825,7 +825,7 @@ export const questions: IQuestion[] = [
       'Isaías',
       'Jeremías'
     ],
-    reference: ''
+    reference: 'Génesis 28:10-12'
   },
   {
     difficulty: Difficulty.MEDIUM_EASY,
@@ -836,7 +836,7 @@ export const questions: IQuestion[] = [
       'Job 42',
       'Mateo 24'
     ],
-    reference: ''
+    reference: '176 versículos'
   },
   {
     difficulty: Difficulty.MEDIUM_EASY,
@@ -847,7 +847,7 @@ export const questions: IQuestion[] = [
       'Isaac e Ismael',
       'Rubén y Judá'
     ],
-    reference: ''
+    reference: 'Génesis 35:24'
   },
   {
     difficulty: Difficulty.MEDIUM,
@@ -858,7 +858,7 @@ export const questions: IQuestion[] = [
       'Tres veces',
       'Siete veces'
     ],
-    reference: ''
+    reference: 'Éxodo 14 y Josué 3'
   },
   {
     difficulty: Difficulty.MEDIUM,
@@ -869,7 +869,7 @@ export const questions: IQuestion[] = [
       'La oveja perdida',
       'El fariseo y el publicano'
     ],
-    reference: ''
+    reference: 'Lucas 10:25-37'
   },
   {
     difficulty: Difficulty.VERY_HARD,
@@ -880,7 +880,7 @@ export const questions: IQuestion[] = [
       'Gedeón',
       'David'
     ],
-    reference: ''
+    reference: 'Éxodo 14:13'
   },
   {
     difficulty: Difficulty.EASY,
@@ -891,18 +891,18 @@ export const questions: IQuestion[] = [
       'Rebeca',
       'Lea'
     ],
-    reference: ''
+    reference: 'Éxodo 2:21'
   },
   {
     difficulty: Difficulty.EASY,
     question: '¿Quién cerró la puerta del arca que construyó Noé?',
     options: [
-      'Dios',
+      'Jehová',
       'Noé',
       'Cam',
       'Jafet'
     ],
-    reference: ''
+    reference: 'Génesis 7:16'
   },
   {
     difficulty: Difficulty.VERY_HARD,
@@ -913,7 +913,7 @@ export const questions: IQuestion[] = [
       'Sinaí',
       'Cerca de Ur'
     ],
-    reference: ''
+    reference: '2 Crónicas 3:1'
   },
   {
     difficulty: Difficulty.MEDIUM_EASY,
@@ -935,7 +935,7 @@ export const questions: IQuestion[] = [
       'Ocozías',
       'Ezequiel'
     ],
-    reference: ''
+    reference: 'Isaías 38:5'
   },
   {
     difficulty: Difficulty.MEDIUM,
@@ -946,18 +946,18 @@ export const questions: IQuestion[] = [
       'Jonatán',
       'Urías'
     ],
-    reference: ''
+    reference: '1 Samuel 24:4'
   },
   {
     difficulty: Difficulty.MEDIUM_EASY,
-    question: '¿Quién predicó en el día de Pentescostés?',
+    question: '¿Quién predicó en el día de Pentecostés?',
     options: [
       'Pedro',
       'Jesús',
       'Pablo',
       'Felipe'
     ],
-    reference: ''
+    reference: 'Hechos 2'
   },
   {
     difficulty: Difficulty.HARD,
@@ -968,7 +968,7 @@ export const questions: IQuestion[] = [
       'Otro',
       'Abraham'
     ],
-    reference: ''
+    reference: 'Jueces 6'
   },
   {
     difficulty: Difficulty.VERY_HARD,
@@ -979,7 +979,7 @@ export const questions: IQuestion[] = [
       'Jeroham',
       'Finees'
     ],
-    reference: ''
+    reference: '1 Samuel 1'
   },
   {
     difficulty: Difficulty.VERY_HARD,
@@ -990,7 +990,7 @@ export const questions: IQuestion[] = [
       'Cuatro',
       'Uno'
     ],
-    reference: ''
+    reference: 'Mateo 17:1, Marcos 9:2, Lucas 9:28'
   },
   {
     difficulty: Difficulty.VERY_HARD,
@@ -1001,7 +1001,7 @@ export const questions: IQuestion[] = [
       'Salmos',
       'Deuteronomio'
     ],
-    reference: ''
+    reference: 'Jeremías 29:13'
   },
   {
     difficulty: Difficulty.MEDIUM_EASY,
@@ -1012,7 +1012,7 @@ export const questions: IQuestion[] = [
       'Soy tu hijo',
       'No sé'
     ],
-    reference: ''
+    reference: 'Génesis 3:4'
   },
   {
     difficulty: Difficulty.HARD,
@@ -1023,7 +1023,7 @@ export const questions: IQuestion[] = [
       'Por robar del anatema',
       'Por adulterio'
     ],
-    reference: ''
+    reference: '2 Samuel 6:6-7'
   },
   {
     difficulty: Difficulty.VERY_HARD,
@@ -1034,7 +1034,7 @@ export const questions: IQuestion[] = [
       'Eliseo',
       'Jeremías'
     ],
-    reference: ''
+    reference: '1 Reyes 17:1'
   },
   {
     difficulty: Difficulty.HARD,
@@ -1056,7 +1056,7 @@ export const questions: IQuestion[] = [
       'Éufrates',
       'Tigris'
     ],
-    reference: ''
+    reference: 'Mateo 3:13'
   },
   {
     difficulty: Difficulty.EASY,
@@ -1067,7 +1067,7 @@ export const questions: IQuestion[] = [
       'Números',
       'Deuteronomio'
     ],
-    reference: ''
+    reference: 'Éxodo 31:18-32:35'
   },
   {
     difficulty: Difficulty.EASY,
@@ -1078,7 +1078,7 @@ export const questions: IQuestion[] = [
       'Sansón y Moisés',
       'Matusalén y Samuel'
     ],
-    reference: ''
+    reference: 'Génesis 5:22 y 2 Reyes 2:11'
   },
   {
     difficulty: Difficulty.EASY,
@@ -1089,7 +1089,7 @@ export const questions: IQuestion[] = [
       'Cítara',
       'Trompeta'
     ],
-    reference: ''
+    reference: '1 Samuel 16:23'
   },
   {
     difficulty: Difficulty.EASY,
@@ -1100,7 +1100,7 @@ export const questions: IQuestion[] = [
       'Uno',
       'Ninguno'
     ],
-    reference: ''
+    reference: 'Génesis 25:19-26'
   },
   {
     difficulty: Difficulty.MEDIUM,
@@ -1111,7 +1111,7 @@ export const questions: IQuestion[] = [
       'Cantares',
       'Eclesiastés'
     ],
-    reference: ''
+    reference: 'Salmos 46:1'
   },
   {
     difficulty: Difficulty.MEDIUM,
@@ -1122,7 +1122,7 @@ export const questions: IQuestion[] = [
       'Sanar enfermos',
       'Predicar'
     ],
-    reference: ''
+    reference: 'Lucas 4:16'
   },
   {
     difficulty: Difficulty.VERY_HARD,
@@ -1133,7 +1133,7 @@ export const questions: IQuestion[] = [
       'Doce',
       'Diez'
     ],
-    reference: ''
+    reference: 'Job 1:2 más Job 42:13'
   },
   {
     difficulty: Difficulty.MEDIUM,
@@ -1144,7 +1144,7 @@ export const questions: IQuestion[] = [
       'Ellos serán saciados',
       'Ellos serán consolados'
     ],
-    reference: ''
+    reference: 'Mateo 5:3'
   },
   {
     difficulty: Difficulty.MEDIUM,
@@ -1155,7 +1155,7 @@ export const questions: IQuestion[] = [
       'Con una fruta',
       'Con el agua'
     ],
-    reference: ''
+    reference: 'Santiago 1:23, 2 Corintios 3:18'
   },
   {
     difficulty: Difficulty.HARD,
@@ -1166,7 +1166,7 @@ export const questions: IQuestion[] = [
       'Lamec',
       'Matusael'
     ],
-    reference: ''
+    reference: 'Génesis 4:26'
   },
   {
     difficulty: Difficulty.HARD,
@@ -1177,7 +1177,7 @@ export const questions: IQuestion[] = [
       'Jacobo',
       'Andrés'
     ],
-    reference: ''
+    reference: 'Marcos 1:29-30'
   },
   {
     difficulty: Difficulty.HARD,
@@ -1199,7 +1199,7 @@ export const questions: IQuestion[] = [
       'Guerrero',
       'Futbolista'
     ],
-    reference: ''
+    reference: '1 Samuel 17:34'
   },
   {
     difficulty: Difficulty.EASY,
@@ -1210,7 +1210,7 @@ export const questions: IQuestion[] = [
       'Juan el Bautista',
       'Pedro'
     ],
-    reference: ''
+    reference: 'Mateo 27:15-21'
   },
   {
     difficulty: Difficulty.MEDIUM_EASY,
@@ -1221,7 +1221,7 @@ export const questions: IQuestion[] = [
       'Tres',
       'Siete'
     ],
-    reference: ''
+    reference: '1 Samuel 17:40'
   },
   {
     difficulty: Difficulty.EASY,
@@ -1232,7 +1232,7 @@ export const questions: IQuestion[] = [
       'Un apostol',
       'Un fariseo'
     ],
-    reference: ''
+    reference: '1 Reyes 19:16'
   },
   {
     difficulty: Difficulty.HARD,
@@ -1243,7 +1243,7 @@ export const questions: IQuestion[] = [
       'Clamen al Padre',
       'Arrepiéntanse'
     ],
-    reference: ''
+    reference: 'Mateo 24:14-16'
   },
   {
     difficulty: Difficulty.MEDIUM_EASY,
@@ -1254,7 +1254,7 @@ export const questions: IQuestion[] = [
       'Un rey',
       'Un padre'
     ],
-    reference: ''
+    reference: 'Proverbios 18:24'
   },
   {
     difficulty: Difficulty.MEDIUM,
@@ -1265,7 +1265,7 @@ export const questions: IQuestion[] = [
       'Pedro',
       'Pablo'
     ],
-    reference: ''
+    reference: 'Mateo 7:21-23'
   },
   {
     difficulty: Difficulty.MEDIUM,
@@ -1276,7 +1276,7 @@ export const questions: IQuestion[] = [
       'Una mujer',
       'Una hija'
     ],
-    reference: ''
+    reference: '1 Reyes 21'
   },
   {
     difficulty: Difficulty.HARD,
@@ -1287,7 +1287,7 @@ export const questions: IQuestion[] = [
       'Juan',
       'Lucas'
     ],
-    reference: ''
+    reference: 'Marcos 2:14 y Mateo 10:3'
   },
   {
     difficulty: Difficulty.EASY,
@@ -1298,7 +1298,7 @@ export const questions: IQuestion[] = [
       'Tercero',
       'Cuarto'
     ],
-    reference: ''
+    reference: 'Génesis 1:4'
   },
   {
     difficulty: Difficulty.HARD,
@@ -1309,18 +1309,18 @@ export const questions: IQuestion[] = [
       'El fruto de la vida',
       'Moradas'
     ],
-    reference: ''
+    reference: 'Apocalipsis 2:10'
   },
   {
     difficulty: Difficulty.VERY_HARD,
-    question: '¿De qué ciudad escapó Pablo en un cesto?',
+    question: '¿De qué ciudad escapó Pablo en un canasto?',
     options: [
       'Damasco',
       'Éfeso',
       'Corintios',
       'Filipo'
     ],
-    reference: ''
+    reference: '2 Corintios 11:32-33'
   },
   {
     difficulty: Difficulty.VERY_HARD,
@@ -1331,7 +1331,7 @@ export const questions: IQuestion[] = [
       'Siquem y Bet-el',
       'Hiram y Dan'
     ],
-    reference: ''
+    reference: '1 Reyes 12:28-29'
   },
   {
     difficulty: Difficulty.VERY_HARD,
@@ -1342,7 +1342,7 @@ export const questions: IQuestion[] = [
       'Zila',
       'Salomé'
     ],
-    reference: ''
+    reference: 'Mateo 14:3'
   },
   {
     difficulty: Difficulty.VERY_HARD,
@@ -1353,7 +1353,7 @@ export const questions: IQuestion[] = [
       'Jedida',
       'Amalía'
     ],
-    reference: ''
+    reference: '2 Reyes 11'
   },
   {
     difficulty: Difficulty.MEDIUM_EASY,
@@ -1364,7 +1364,7 @@ export const questions: IQuestion[] = [
       'Elcana',
       'Ananías'
     ],
-    reference: ''
+    reference: '1 Samuel 1'
   },
   {
     difficulty: Difficulty.HARD,
@@ -1375,7 +1375,7 @@ export const questions: IQuestion[] = [
       'Belsasar',
       'Nabucodonosor'
     ],
-    reference: ''
+    reference: 'Nehemías 2'
   },
   {
     difficulty: Difficulty.MEDIUM,
@@ -1386,7 +1386,7 @@ export const questions: IQuestion[] = [
       'Anías',
       'Asuero'
     ],
-    reference: ''
+    reference: 'Ester 7:10'
   },
   {
     difficulty: Difficulty.MEDIUM,
@@ -1397,7 +1397,7 @@ export const questions: IQuestion[] = [
       'Andrés',
       'Herodes'
     ],
-    reference: ''
+    reference: 'Juan 1:46'
   },
   {
     difficulty: Difficulty.HARD,
@@ -1408,7 +1408,7 @@ export const questions: IQuestion[] = [
       'Eben-ezer',
       'Luz'
     ],
-    reference: ''
+    reference: 'Génesis 28:10-22'
   },
   {
     difficulty: Difficulty.MEDIUM_EASY,
@@ -1419,7 +1419,7 @@ export const questions: IQuestion[] = [
       'Pastor',
       'Recaudador de impuestos'
     ],
-    reference: ''
+    reference: 'Colosenses 4:14'
   },
   {
     difficulty: Difficulty.MEDIUM,
@@ -1430,7 +1430,7 @@ export const questions: IQuestion[] = [
       'Gedeón',
       'Otro'
     ],
-    reference: ''
+    reference: 'Jueces 15:20'
   },
   {
     difficulty: Difficulty.EASY,
@@ -1441,7 +1441,7 @@ export const questions: IQuestion[] = [
       '7 días',
       '120 días'
     ],
-    reference: ''
+    reference: 'Marcos 1:13'
   },
   {
     difficulty: Difficulty.EASY,
@@ -1452,7 +1452,7 @@ export const questions: IQuestion[] = [
       '2 veces',
       '4 veces'
     ],
-    reference: ''
+    reference: 'Mateo 4'
   },
   {
     difficulty: Difficulty.EASY,
@@ -1463,7 +1463,7 @@ export const questions: IQuestion[] = [
       'Los piojos',
       'Las serpientes'
     ],
-    reference: ''
+    reference: 'Éxodo 7:14-25'
   },
   {
     difficulty: Difficulty.MEDIUM,
@@ -1474,7 +1474,7 @@ export const questions: IQuestion[] = [
       'Salomón',
       'Isaías'
     ],
-    reference: ''
+    reference: 'Job 19:25'
   },
   {
     difficulty: Difficulty.EASY,
@@ -1485,7 +1485,7 @@ export const questions: IQuestion[] = [
       'Milca',
       'Séfora'
     ],
-    reference: ''
+    reference: 'Génesis 11:29'
   },
   {
     difficulty: Difficulty.EASY,
@@ -1496,7 +1496,7 @@ export const questions: IQuestion[] = [
       'Cuarto',
       'Segundo'
     ],
-    reference: ''
+    reference: 'Génesis 1:12-13'
   },
   {
     difficulty: Difficulty.MEDIUM_EASY,
@@ -1507,7 +1507,7 @@ export const questions: IQuestion[] = [
       'Padre',
       'Hermano'
     ],
-    reference: ''
+    reference: 'Ester 2:7'
   },
   {
     difficulty: Difficulty.HARD,
@@ -1518,7 +1518,7 @@ export const questions: IQuestion[] = [
       'Andrés',
       'Tomás'
     ],
-    reference: ''
+    reference: 'Mateo 17:24-27'
   },
   {
     difficulty: Difficulty.VERY_HARD,
@@ -1529,7 +1529,7 @@ export const questions: IQuestion[] = [
       'Roble',
       'Cedro'
     ],
-    reference: ''
+    reference: '1 Reyes 6:23'
   },
   {
     difficulty: Difficulty.MEDIUM_EASY,
@@ -1562,7 +1562,7 @@ export const questions: IQuestion[] = [
       'Ester',
       'Elisabet'
     ],
-    reference: ''
+    reference: 'Rut 4:13'
   },
   {
     difficulty: Difficulty.MEDIUM_EASY,
@@ -1573,7 +1573,7 @@ export const questions: IQuestion[] = [
       'Ezequías',
       'Isaías'
     ],
-    reference: ''
+    reference: 'Es Ezequiel'
   },
   {
     difficulty: Difficulty.HARD,
@@ -1584,18 +1584,18 @@ export const questions: IQuestion[] = [
       'Jesús',
       'David'
     ],
-    reference: ''
+    reference: 'Mateo 3:3'
   },
   {
     difficulty: Difficulty.MEDIUM_EASY,
     question: '¿Quién dijo \'Señor, si hubieses estado aquí, mi hermano no habría muerto\'?',
     options: [
+      'Marta y María',
       'Marta',
-      'María',
       'La viuda de Serepta',
       'Lázaro'
     ],
-    reference: ''
+    reference: 'Juan 11:21 y Juan 11:32'
   },
   {
     difficulty: Difficulty.VERY_HARD,
@@ -1606,7 +1606,7 @@ export const questions: IQuestion[] = [
       'Tarso',
       'Jerusalén'
     ],
-    reference: ''
+    reference: 'Hechos 9:36'
   },
   {
     difficulty: Difficulty.VERY_HARD,
@@ -1617,7 +1617,7 @@ export const questions: IQuestion[] = [
       'Capernaúm',
       'Nazaret'
     ],
-    reference: ''
+    reference: 'Lucas 24:50-51'
   },
   {
     difficulty: Difficulty.MEDIUM_EASY,
@@ -1628,10 +1628,10 @@ export const questions: IQuestion[] = [
       'Ciro',
       'Artajerjes'
     ],
-    reference: ''
+    reference: 'Nehemías 2'
   },
   {
-    difficulty: Difficulty.MEDIUM,
+    difficulty: Difficulty.HARD,
     question: '¿Quién mató a seiscientos filisteos con una aguijada de buey?',
     options: [
       'Samgar',
@@ -1639,7 +1639,7 @@ export const questions: IQuestion[] = [
       'Otoniel',
       'Barac'
     ],
-    reference: ''
+    reference: 'Jueces 3:31'
   },
   {
     difficulty: Difficulty.MEDIUM_EASY,
@@ -1650,7 +1650,7 @@ export const questions: IQuestion[] = [
       'Jozabad',
       'Semaías'
     ],
-    reference: ''
+    reference: 'Números 22'
   },
   {
     difficulty: Difficulty.MEDIUM,
@@ -1661,7 +1661,7 @@ export const questions: IQuestion[] = [
       'Salomón',
       'Zimri'
     ],
-    reference: ''
+    reference: '1 Reyes 12:20'
   },
   {
     difficulty: Difficulty.MEDIUM,
@@ -1672,7 +1672,7 @@ export const questions: IQuestion[] = [
       'Mical',
       'Ana'
     ],
-    reference: ''
+    reference: '1 Samuel 25:23-26'
   },
   {
     difficulty: Difficulty.MEDIUM,
@@ -1683,7 +1683,7 @@ export const questions: IQuestion[] = [
       'Lucas',
       'Aquila'
     ],
-    reference: ''
+    reference: 'Gálatas 2:11-21'
   },
   {
     difficulty: Difficulty.MEDIUM,
@@ -1694,7 +1694,7 @@ export const questions: IQuestion[] = [
       'Monte Sinaí',
       'Monte Ararat'
     ],
-    reference: ''
+    reference: '1 Reyes 18:19-21'
   },
   {
     difficulty: Difficulty.MEDIUM,
@@ -1705,7 +1705,7 @@ export const questions: IQuestion[] = [
       'Jerusalén',
       'Éfeso'
     ],
-    reference: ''
+    reference: 'Hechos 11:26'
   },
   {
     difficulty: Difficulty.MEDIUM,
@@ -1716,7 +1716,7 @@ export const questions: IQuestion[] = [
       'Jerusalén',
       'Samaria'
     ],
-    reference: ''
+    reference: 'Hechos 9:3'
   },
   {
     difficulty: Difficulty.HARD,
@@ -1727,7 +1727,7 @@ export const questions: IQuestion[] = [
       'Gihón',
       'Éufrates'
     ],
-    reference: ''
+    reference: 'Ezequiel 1:1'
   },
   {
     difficulty: Difficulty.HARD,
@@ -1742,14 +1742,14 @@ export const questions: IQuestion[] = [
   },
   {
     difficulty: Difficulty.MEDIUM,
-    question: '¿Quién fue llamado el incredulo?',
+    question: '¿Quién fue llamado el incrédulo?',
     options: [
       'Tomás',
       'Felipe',
       'Juan',
       'Simón'
     ],
-    reference: ''
+    reference: 'Juan 20:27'
   },
   {
     difficulty: Difficulty.VERY_HARD,
@@ -1760,7 +1760,7 @@ export const questions: IQuestion[] = [
       'Jesús',
       'Abraham'
     ],
-    reference: ''
+    reference: 'Génesis 49:22'
   },
   {
     difficulty: Difficulty.MEDIUM_EASY,
@@ -1771,7 +1771,7 @@ export const questions: IQuestion[] = [
       'Salomón',
       'Moisés'
     ],
-    reference: ''
+    reference: '2 Samuel 23:1'
   },
   {
     difficulty: Difficulty.HARD,
@@ -1782,7 +1782,7 @@ export const questions: IQuestion[] = [
       '12',
       '13'
     ],
-    reference: ''
+    reference: 'Génesis 37:9'
   },
   {
     difficulty: Difficulty.VERY_HARD,
@@ -1793,7 +1793,7 @@ export const questions: IQuestion[] = [
       '20 años',
       '40 años'
     ],
-    reference: ''
+    reference: '1 Reyes 6:38'
   },
   {
     difficulty: Difficulty.MEDIUM,
@@ -1804,7 +1804,7 @@ export const questions: IQuestion[] = [
       'Rebeca',
       'Ester'
     ],
-    reference: ''
+    reference: 'Génesis 37:28'
   },
   {
     difficulty: Difficulty.MEDIUM_EASY,
@@ -1815,7 +1815,7 @@ export const questions: IQuestion[] = [
       'Julio Cesar',
       'Herodes'
     ],
-    reference: ''
+    reference: 'Mateo 27'
   },
   {
     difficulty: Difficulty.MEDIUM_EASY,
@@ -1826,7 +1826,7 @@ export const questions: IQuestion[] = [
       'Seis',
       'Nueve'
     ],
-    reference: ''
+    reference: 'Génesis 7:13'
   },
   {
     difficulty: Difficulty.MEDIUM_EASY,
@@ -1848,18 +1848,18 @@ export const questions: IQuestion[] = [
       'Fiesta de la cosecha',
       'La fiesta de Purim'
     ],
-    reference: ''
+    reference: 'Éxodo 12'
   },
   {
     difficulty: Difficulty.MEDIUM_EASY,
     question: '¿Cuáles de éstos animales hablaron?',
     options: [
-      'La serpiente y el asno',
+      'La serpiente y el asna',
       'La serpiente y el cordero',
-      'El asno y el dragón',
+      'El asna y el dragón',
       'El dragón y el cordero'
     ],
-    reference: ''
+    reference: 'Génesis 3:1 y Números 22:28'
   },
   {
     difficulty: Difficulty.MEDIUM_EASY,
@@ -1870,7 +1870,7 @@ export const questions: IQuestion[] = [
       'Mical',
       'Abigail'
     ],
-    reference: ''
+    reference: '2 Samuel 11'
   },
   {
     difficulty: Difficulty.EASY,
@@ -1892,7 +1892,7 @@ export const questions: IQuestion[] = [
       'Verdad',
       'Fe'
     ],
-    reference: ''
+    reference: 'Efesios 6:17'
   },
   {
     difficulty: Difficulty.MEDIUM_EASY,
@@ -1903,7 +1903,7 @@ export const questions: IQuestion[] = [
       'Once',
       'Diéz'
     ],
-    reference: ''
+    reference: 'Génesis 29:31-35:18'
   },
   {
     difficulty: Difficulty.MEDIUM,
@@ -1914,7 +1914,7 @@ export const questions: IQuestion[] = [
       'Samuel',
       'Isaías'
     ],
-    reference: ''
+    reference: 'Mateo 11:7-14'
   },
   {
     difficulty: Difficulty.MEDIUM,
@@ -1925,7 +1925,7 @@ export const questions: IQuestion[] = [
       '102 años',
       '110 años'
     ],
-    reference: ''
+    reference: 'Génesis 21:5'
   },
   {
     difficulty: Difficulty.HARD,
@@ -1947,7 +1947,7 @@ export const questions: IQuestion[] = [
       'Mambre',
       'Beerseba'
     ],
-    reference: ''
+    reference: 'Génesis 22:2'
   },
   {
     difficulty: Difficulty.VERY_HARD,
@@ -1958,7 +1958,7 @@ export const questions: IQuestion[] = [
       'Marcos',
       'Lucas'
     ],
-    reference: ''
+    reference: 'Mateo 19:15-17, Marcos 10:16-18, Lucas 18:17-19'
   },
   {
     difficulty: Difficulty.HARD,
@@ -1969,7 +1969,7 @@ export const questions: IQuestion[] = [
       'Uzías',
       'Josafat'
     ],
-    reference: ''
+    reference: '1 Reyes 13:4'
   },
   {
     difficulty: Difficulty.EASY,
@@ -1980,7 +1980,7 @@ export const questions: IQuestion[] = [
       'Abraham',
       'El Papa'
     ],
-    reference: ''
+    reference: '1 Juan 2:1'
   },
   {
     difficulty: Difficulty.MEDIUM_EASY,
@@ -2002,7 +2002,7 @@ export const questions: IQuestion[] = [
       '120 días',
       '7 días'
     ],
-    reference: ''
+    reference: 'Génesis 7:24'
   },
   {
     difficulty: Difficulty.MEDIUM,
@@ -2013,7 +2013,7 @@ export const questions: IQuestion[] = [
       'Dos',
       'Tres'
     ],
-    reference: ''
+    reference: 'Génesis 7:13'
   },
   {
     difficulty: Difficulty.MEDIUM,
@@ -2035,7 +2035,7 @@ export const questions: IQuestion[] = [
       'Eliud',
       'Simón'
     ],
-    reference: ''
+    reference: 'Juan 18:10'
   },
   {
     difficulty: Difficulty.VERY_HARD,
@@ -2046,18 +2046,18 @@ export const questions: IQuestion[] = [
       '1000',
       '500'
     ],
-    reference: ''
+    reference: '1 Reyes 11:3'
   },
   {
     difficulty: Difficulty.HARD,
-    question: '¿Qué significa Emanuel?',
+    question: '¿Cómo se traduce \'Emanuel\'?',
     options: [
       'Dios con nosotros',
       'Dios nuestro',
       'Bendito de Dios',
       'Principe de paz'
     ],
-    reference: ''
+    reference: 'Mateo 1:23'
   },
   {
     difficulty: Difficulty.MEDIUM_EASY,
@@ -2083,14 +2083,14 @@ export const questions: IQuestion[] = [
   },
   {
     difficulty: Difficulty.VERY_HARD,
-    question: '¿Quién fue el padre de Mahersalal–hasbaz?',
+    question: '¿Quién fue el padre de Maher-salal-hasbaz?',
     options: [
       'Isaías',
       'Nabucodonosor',
       'Nehemías',
       'Artajerjes'
     ],
-    reference: ''
+    reference: 'Isaías 8:3'
   },
   {
     difficulty: Difficulty.VERY_HARD,
@@ -2101,7 +2101,7 @@ export const questions: IQuestion[] = [
       '200 x 50 x 30',
       '200 x 45 x 30'
     ],
-    reference: ''
+    reference: 'Génesis 6:15'
   },
   {
     difficulty: Difficulty.VERY_HARD,
@@ -2112,7 +2112,7 @@ export const questions: IQuestion[] = [
       'Olivo',
       'Cedro'
     ],
-    reference: ''
+    reference: 'Éxodo 25:10'
   },
   {
     difficulty: Difficulty.VERY_HARD,
@@ -2123,7 +2123,7 @@ export const questions: IQuestion[] = [
       'Aarón',
       'Quelal'
     ],
-    reference: ''
+    reference: 'Éxodo 37:1'
   },
   {
     difficulty: Difficulty.VERY_HARD,
@@ -2134,7 +2134,7 @@ export const questions: IQuestion[] = [
       'Una ciudad',
       'Un monte'
     ],
-    reference: ''
+    reference: 'Levítico 16:26'
   },
   {
     difficulty: Difficulty.HARD,
@@ -2145,7 +2145,7 @@ export const questions: IQuestion[] = [
       'Absalón',
       'Roboam'
     ],
-    reference: ''
+    reference: '1 Samuel 17:43'
   },
   {
     difficulty: Difficulty.HARD,
@@ -2156,7 +2156,7 @@ export const questions: IQuestion[] = [
       'Moisés',
       'Saúl'
     ],
-    reference: ''
+    reference: '1 Reyes 3:9'
   },
   {
     difficulty: Difficulty.MEDIUM,
@@ -2167,7 +2167,7 @@ export const questions: IQuestion[] = [
       'Jacob',
       'Cam'
     ],
-    reference: ''
+    reference: 'Génesis 22:7'
   },
   {
     difficulty: Difficulty.VERY_HARD,
@@ -2178,7 +2178,7 @@ export const questions: IQuestion[] = [
       'La mujer de Zaqueo',
       'La mujer de Santiago'
     ],
-    reference: ''
+    reference: 'Mateo 20:21'
   },
   {
     difficulty: Difficulty.MEDIUM_EASY,
@@ -2189,7 +2189,7 @@ export const questions: IQuestion[] = [
       'Sara',
       'Ana'
     ],
-    reference: ''
+    reference: 'Ester 4:16'
   },
   {
     difficulty: Difficulty.HARD,
@@ -2222,7 +2222,7 @@ export const questions: IQuestion[] = [
       'Abdías',
       'Amós'
     ],
-    reference: ''
+    reference: 'Oseas 1'
   },
   {
     difficulty: Difficulty.MEDIUM,
@@ -2233,7 +2233,7 @@ export const questions: IQuestion[] = [
       'Moisés e Isaías',
       'Eliseo y Elías'
     ],
-    reference: ''
+    reference: 'Mateo 17:3'
   },
   {
     difficulty: Difficulty.HARD,
@@ -2244,7 +2244,7 @@ export const questions: IQuestion[] = [
       '1 Reyes',
       'Eclesiastés'
     ],
-    reference: ''
+    reference: 'Salmos 22:1'
   },
   {
     difficulty: Difficulty.HARD,
@@ -2255,7 +2255,7 @@ export const questions: IQuestion[] = [
       '955 años',
       '940 años'
     ],
-    reference: ''
+    reference: 'Génesis 9:29'
   },
   {
     difficulty: Difficulty.HARD,
@@ -2266,7 +2266,7 @@ export const questions: IQuestion[] = [
       '130 años',
       '100 años'
     ],
-    reference: ''
+    reference: 'Deuteronomio 34:1-12'
   },
   {
     difficulty: Difficulty.MEDIUM,
@@ -2277,7 +2277,7 @@ export const questions: IQuestion[] = [
       '6 codos y 2 palmos',
       '6 codos y 3 palmos'
     ],
-    reference: ''
+    reference: '1 Samuel 17:4'
   },
   {
     difficulty: Difficulty.MEDIUM,
@@ -2288,6 +2288,6 @@ export const questions: IQuestion[] = [
       'Eunuco',
       'Eliseo'
     ],
-    reference: ''
+    reference: '2 Reyes 5:1-27'
   }
 ];
