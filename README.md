@@ -29,7 +29,7 @@ DIFICULTAD
 - **Línea 4**: Cita o referencia bíblica. Si no hay dejar la línea vacía. (ej. Génesis 46:30)
 - **Línea 5**: Separador de pregunta `---`
 
-Ejecuta el comando `yarn generate` para generar el archivo ***typescript*** con las preguntas procesadas.
+Ejecuta el comando `yarn run generate` para generar el archivo ***typescript*** con las preguntas procesadas.
 
 ## Desarrollo
 
@@ -43,4 +43,4 @@ Ejecuta el comando `yarn build` para generar la distribución del proyecto. Los 
 
 ## Ejecutable
 
-Ejecuta el comando `yarn packager` para generar la distribución del proyecto como ejecutable de **Windows**. Los artefactos generados estarán en el directorio `biblionaire-win32-x64/`.
+Ejecuta el comando `yarn run packager` para generar la distribución del proyecto como ejecutable de **Windows**. Los artefactos generados estarán en el directorio `biblionaire-win32-x64/`.
